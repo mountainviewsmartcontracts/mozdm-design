@@ -1,0 +1,29 @@
+site_name:        'XDMarket'
+site_author:      'MVSC'
+site_description: 'XDMarket Project Documentation'
+site_url:         'https://mountainviewsmartcontracts.github.io/mozdm-design'
+site_favicon:     'img/favicon.gif'
+theme_dir:        '_theme/material'
+copyright:        'Copyright &copy; 2017 Mountain View Smart Contracts'
+extra:
+  disqus: 'xdm-docs'
+  palette:
+    primary: 'green'
+  social:
+    - type: 'github'
+      link: 'https://github.com/mountainviewsmartcontracts/mozdm-design'
+markdown_extensions:
+  - admonition
+  - toc(permalink=true)
+pages:
+  - Home:             index.md
+  - Collaboration:    collaboration.md
+  - Usage Scenarios:  scenarios.md
+  - Use Cases:   
+    - Overview:            use_cases.md
+    - All Roles:           cases/all_roles.md
+    - Product Manager:     cases/product_manager.md
+  - Software Objects: objects.md
+  - Incentives:       incentive.md
+  - Dapps:            dapp.md
+  - IPFS:             ipfs.md
