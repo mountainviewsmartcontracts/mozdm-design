@@ -11,7 +11,7 @@ The system supports two types of contracts:
 - a **Bounty** <br/>
   eg `I will pay $X if Issue $Y is resolved before $Date`
 
-- a **Forecast** <br/>
+- a **Prediction** <br/>
   eg `I will pay $X if an Issue with ${MATCH PARAMS} is opened before $DATE`
 
 ### Payout Algorithm
@@ -29,9 +29,9 @@ A collection of *Repo Types* are hard coded into the system.
 
 | REPO TYPE | SUPPORTED CONTRACT TYPES |
 |-----------|--------------------------|
-| GitHub    | BOUNTY, FORECAST       |
-| BugZilla  | BOUNTY, FORECAST       |
-| CVE       | FORECAST               |
+| GitHub    | BOUNTY, PREDICTION       |
+| BugZilla  | BOUNTY, PREDICTION       |
+| CVE       | PREDICTION               |
 
 ### Characteristics
 
