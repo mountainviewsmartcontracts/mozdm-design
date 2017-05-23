@@ -9,7 +9,7 @@
         <meta name="description" content="XDMarket Project Documentation">
       
       
-        <link rel="canonical" href="https://mvscorg.github.io/mozdm-design/dapp/">
+        <link rel="canonical" href="https://mvscorg.github.io/mozdm-design/process/">
       
       
         <meta name="author" content="MVSC">
@@ -21,7 +21,7 @@
     
     
       
-        <title>Dapps - XDMarket</title>
+        <title>Process Interaction - XDMarket</title>
       
     
     
@@ -80,7 +80,7 @@
             
               
             
-            Dapps
+            Process Interaction
           
         </span>
       </div>
@@ -263,11 +263,20 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../process/" title="Process Interaction" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="./" title="Process Interaction" class="md-nav__link md-nav__link--active">
       Process Interaction
     </a>
+    
   </li>
 
     
@@ -287,60 +296,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        Dapps
-      </label>
-    
-    <a href="./" title="Dapps" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../dapp/" title="Dapps" class="md-nav__link">
       Dapps
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" title="Overview" class="md-nav__link">
-    Overview
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#screen-shots" title="Screen Shots" class="md-nav__link">
-    Screen Shots
-  </a>
-  
-</li>
-      
-      
-      
-        <li class="md-nav__item">
-          <a href="#__comments" title="Comments" class="md-nav__link">
-            Comments
-          </a>
-        </li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -457,33 +417,6 @@
     
   
   
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" title="Overview" class="md-nav__link">
-    Overview
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#screen-shots" title="Screen Shots" class="md-nav__link">
-    Screen Shots
-  </a>
-  
-</li>
-      
-      
-      
-        <li class="md-nav__item">
-          <a href="#__comments" title="Comments" class="md-nav__link">
-            Comments
-          </a>
-        </li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -495,11 +428,13 @@
               
                 
                 
-                <h1 id="dapps">DAPPS<a class="headerlink" href="#dapps" title="Permanent link">&para;</a></h1>
-<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p>Content TBD</p>
-<h2 id="screen-shots">Screen Shots<a class="headerlink" href="#screen-shots" title="Permanent link">&para;</a></h2>
-<p>Content TBD</p>
+                <h1 id="process-interaction">Process interaction<a class="headerlink" href="#process-interaction" title="Permanent link">&para;</a></h1>
+<p><em>Users</em> interact with the marked Dapp through firefox or another browse with the metamask plugin installed.  This is how they make predictions, or take a side of a prediction.</p>
+<p>The <em>Oracle</em> is a cron job that interacts with issue trackers and feeds data on to the blockchain periodically to two smart contracts.</p>
+<p>The <em>Dapp</em> has a web interface that loads data from the ethereum blockchain.  The <em>Dapp</em> also has two smart contracts.</p>
+<p>The <em>Market</em> smart contract interacts with users through the web3 UI, and checks the blockchain for data on the currrent status of predictions and bugs when the page is loaded.</p>
+<p>The <em>Reward Algorithm</em> smart contract is fed data by the Oracle about current bug statuses, and calculates payouts for users of the system.</p>
+<p><img alt="Entities" src="../img/ProcessInteraction.png" /></p>
                 
                   
                 
@@ -510,9 +445,9 @@
                   <div id="disqus_thread"></div>
 <script>
   var disqus_config = function () {
-    this.page.url = "https://mvscorg.github.io/mozdm-design/dapp/";
+    this.page.url = "https://mvscorg.github.io/mozdm-design/process/";
     this.page.identifier =
-      "/dapp/";
+      "/process/";
   };
   (function() {
     var d = document, s = d.createElement("script");
@@ -534,7 +469,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../incentive/" title="Incentives" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../objects/" title="Software Objects" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -543,19 +478,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Incentives
+                Software Objects
               </span>
             </div>
           </a>
         
         
-          <a href="../ref/cve_attributes/" title="CVE Attributes" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../incentive/" title="Incentives" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                CVE Attributes
+                Incentives
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
