@@ -86,6 +86,26 @@
             "title": "Questions"
         }, 
         {
+            "location": "/actors/", 
+            "text": "Actors\n\n\nOrganizations\n\n\n\n\nContract Participants", 
+            "title": "Actors"
+        }, 
+        {
+            "location": "/actors/#actors", 
+            "text": "", 
+            "title": "Actors"
+        }, 
+        {
+            "location": "/actors/#organizations", 
+            "text": "", 
+            "title": "Organizations"
+        }, 
+        {
+            "location": "/actors/#contract-participants", 
+            "text": "", 
+            "title": "Contract Participants"
+        }, 
+        {
             "location": "/scenarios/", 
             "text": "Usage Scenarios\n\n\nDeveloper has a Fix\n\n\nTBD\n\n\nDeveloper Takes High-Value Bug\n\n\nTBD\n\n\nDeveloper Takes Easy-to-Fix Bug\n\n\nTBD", 
             "title": "Usage Scenarios"

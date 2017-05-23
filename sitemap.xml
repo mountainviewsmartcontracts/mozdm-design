@@ -19,6 +19,14 @@
 
     
     <url>
+     <loc>https://mvscorg.github.io/mozdm-design/actors/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>https://mvscorg.github.io/mozdm-design/scenarios/</loc>
      <lastmod>2017-05-23</lastmod>
      <changefreq>daily</changefreq>
