@@ -222,7 +222,7 @@
         },
         {
             "location": "/objects/",
-            "text": "XD Markets - Software Objects\n\u00b6\n\n\nSoftware Objects\n\u00b6\n\n\nAccount\n\u00b6\n\n\nAnyone who interacts with the system must have an account.\n\n\nAttributes:\n\n\n\n\nusername (optional)\n\n\nemail (optional - for notifications)\n\n\nethereum public key\n\n\n\n\nPayout\n\u00b6\n\n\nAttributes:\n\n\n\n\nowner\n\n\nDSL - represented as a JSON object\n\n\nvisibilty (public/private)\n\n\nstatus (test / production / retired)\n\n\n\n\nPrediction\n\u00b6\n\n\nAttributes:\n\n\n\n\nChallenger\n\n\nAmount\n\n\n\n\nRepo\n\u00b6\n\n\nAttributes:\n\n\n\n\nrepo type (GitHub, BugZilla)\n\n\nURL\n\n\n\n\nIssue\n\u00b6\n\n\nPrediction\n\u00b6\n\n\nChallenge\n\u00b6",
+            "text": "XD Markets - Software Objects\n\u00b6\n\n\nSoftware Objects\n\u00b6\n\n\nAccount\n\u00b6\n\n\nAnyone who interacts with the system must have an account.\n\n\nAttributes:\n\n\n\n\nUsername (optional)\n\n\nEmail (optional - for notifications)\n\n\nEthereum account public key\n\n\n\n\nBounty\n\u00b6\n\n\nAttributes:\n\n\n\n\nAmount\n\n\nIssue Number\n\n\nDate\n\n\n\n\nBounty Publisher\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nBounty Counterparty\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nForecast\n\u00b6\n\n\nAttributes:\n\n\n\n\nAmount\n\n\nMatch Params\n\n\nDate\n\n\n\n\nForecast Publisher\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nForecast Counterparty\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nRepo\n\u00b6\n\n\nAttributes:\n\n\n\n\nRepo type (GitHub, BugZilla)\n\n\nURL\n\n\n\n\nIssue\n\u00b6\n\n\nPrediction\n\u00b6\n\n\nChallenge\n\u00b6",
             "title": "Software Objects"
         },
         {
@@ -237,22 +237,42 @@
         },
         {
             "location": "/objects/#account",
-            "text": "Anyone who interacts with the system must have an account.  Attributes:   username (optional)  email (optional - for notifications)  ethereum public key",
+            "text": "Anyone who interacts with the system must have an account.  Attributes:   Username (optional)  Email (optional - for notifications)  Ethereum account public key",
             "title": "Account"
         },
         {
-            "location": "/objects/#payout",
-            "text": "Attributes:   owner  DSL - represented as a JSON object  visibilty (public/private)  status (test / production / retired)",
-            "title": "Payout"
+            "location": "/objects/#bounty",
+            "text": "Attributes:   Amount  Issue Number  Date",
+            "title": "Bounty"
         },
         {
-            "location": "/objects/#prediction",
-            "text": "Attributes:   Challenger  Amount",
-            "title": "Prediction"
+            "location": "/objects/#bounty-publisher",
+            "text": "Attributes:   Public key  Amount",
+            "title": "Bounty Publisher"
+        },
+        {
+            "location": "/objects/#bounty-counterparty",
+            "text": "Attributes:   Public key  Amount",
+            "title": "Bounty Counterparty"
+        },
+        {
+            "location": "/objects/#forecast",
+            "text": "Attributes:   Amount  Match Params  Date",
+            "title": "Forecast"
+        },
+        {
+            "location": "/objects/#forecast-publisher",
+            "text": "Attributes:   Public key  Amount",
+            "title": "Forecast Publisher"
+        },
+        {
+            "location": "/objects/#forecast-counterparty",
+            "text": "Attributes:   Public key  Amount",
+            "title": "Forecast Counterparty"
         },
         {
             "location": "/objects/#repo",
-            "text": "Attributes:   repo type (GitHub, BugZilla)  URL",
+            "text": "Attributes:   Repo type (GitHub, BugZilla)  URL",
             "title": "Repo"
         },
         {
@@ -261,7 +281,7 @@
             "title": "Issue"
         },
         {
-            "location": "/objects/#prediction_1",
+            "location": "/objects/#prediction",
             "text": "",
             "title": "Prediction"
         },

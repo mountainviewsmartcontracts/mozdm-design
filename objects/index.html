@@ -295,15 +295,43 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#payout" title="Payout" class="md-nav__link">
-    Payout
+  <a href="#bounty" title="Bounty" class="md-nav__link">
+    Bounty
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#prediction" title="Prediction" class="md-nav__link">
-    Prediction
+  <a href="#bounty-publisher" title="Bounty Publisher" class="md-nav__link">
+    Bounty Publisher
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bounty-counterparty" title="Bounty Counterparty" class="md-nav__link">
+    Bounty Counterparty
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecast" title="Forecast" class="md-nav__link">
+    Forecast
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecast-publisher" title="Forecast Publisher" class="md-nav__link">
+    Forecast Publisher
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecast-counterparty" title="Forecast Counterparty" class="md-nav__link">
+    Forecast Counterparty
   </a>
   
 </li>
@@ -323,7 +351,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#prediction_1" title="Prediction" class="md-nav__link">
+  <a href="#prediction" title="Prediction" class="md-nav__link">
     Prediction
   </a>
   
@@ -524,15 +552,43 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#payout" title="Payout" class="md-nav__link">
-    Payout
+  <a href="#bounty" title="Bounty" class="md-nav__link">
+    Bounty
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#prediction" title="Prediction" class="md-nav__link">
-    Prediction
+  <a href="#bounty-publisher" title="Bounty Publisher" class="md-nav__link">
+    Bounty Publisher
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bounty-counterparty" title="Bounty Counterparty" class="md-nav__link">
+    Bounty Counterparty
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecast" title="Forecast" class="md-nav__link">
+    Forecast
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecast-publisher" title="Forecast Publisher" class="md-nav__link">
+    Forecast Publisher
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecast-counterparty" title="Forecast Counterparty" class="md-nav__link">
+    Forecast Counterparty
   </a>
   
 </li>
@@ -552,7 +608,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#prediction_1" title="Prediction" class="md-nav__link">
+  <a href="#prediction" title="Prediction" class="md-nav__link">
     Prediction
   </a>
   
@@ -597,32 +653,56 @@
 <p>Anyone who interacts with the system must have an account.</p>
 <p>Attributes:</p>
 <ul>
-<li>username (optional)</li>
-<li>email (optional - for notifications)</li>
-<li>ethereum public key</li>
+<li>Username (optional)</li>
+<li>Email (optional - for notifications)</li>
+<li>Ethereum account public key</li>
 </ul>
-<h3 id="payout">Payout<a class="headerlink" href="#payout" title="Permanent link">&para;</a></h3>
+<h3 id="bounty">Bounty<a class="headerlink" href="#bounty" title="Permanent link">&para;</a></h3>
 <p>Attributes:</p>
 <ul>
-<li>owner</li>
-<li>DSL - represented as a JSON object</li>
-<li>visibilty (public/private)</li>
-<li>status (test / production / retired)</li>
+<li>Amount</li>
+<li>Issue Number</li>
+<li>Date</li>
 </ul>
-<h3 id="prediction">Prediction<a class="headerlink" href="#prediction" title="Permanent link">&para;</a></h3>
+<h3 id="bounty-publisher">Bounty Publisher<a class="headerlink" href="#bounty-publisher" title="Permanent link">&para;</a></h3>
 <p>Attributes:</p>
 <ul>
-<li>Challenger</li>
+<li>Public key</li>
+<li>Amount</li>
+</ul>
+<h3 id="bounty-counterparty">Bounty Counterparty<a class="headerlink" href="#bounty-counterparty" title="Permanent link">&para;</a></h3>
+<p>Attributes:</p>
+<ul>
+<li>Public key</li>
+<li>Amount</li>
+</ul>
+<h3 id="forecast">Forecast<a class="headerlink" href="#forecast" title="Permanent link">&para;</a></h3>
+<p>Attributes:</p>
+<ul>
+<li>Amount</li>
+<li>Match Params</li>
+<li>Date</li>
+</ul>
+<h3 id="forecast-publisher">Forecast Publisher<a class="headerlink" href="#forecast-publisher" title="Permanent link">&para;</a></h3>
+<p>Attributes:</p>
+<ul>
+<li>Public key</li>
+<li>Amount</li>
+</ul>
+<h3 id="forecast-counterparty">Forecast Counterparty<a class="headerlink" href="#forecast-counterparty" title="Permanent link">&para;</a></h3>
+<p>Attributes:</p>
+<ul>
+<li>Public key</li>
 <li>Amount</li>
 </ul>
 <h3 id="repo">Repo<a class="headerlink" href="#repo" title="Permanent link">&para;</a></h3>
 <p>Attributes:</p>
 <ul>
-<li>repo type (GitHub, BugZilla)</li>
+<li>Repo type (GitHub, BugZilla)</li>
 <li>URL</li>
 </ul>
 <h3 id="issue">Issue<a class="headerlink" href="#issue" title="Permanent link">&para;</a></h3>
-<h3 id="prediction_1">Prediction<a class="headerlink" href="#prediction_1" title="Permanent link">&para;</a></h3>
+<h3 id="prediction">Prediction<a class="headerlink" href="#prediction" title="Permanent link">&para;</a></h3>
 <h3 id="challenge">Challenge<a class="headerlink" href="#challenge" title="Permanent link">&para;</a></h3>
                 
                   
