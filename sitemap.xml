@@ -82,6 +82,22 @@
     
         
     <url>
+     <loc>https://mvscorg.github.io/mozdm-design/ref/cve_attributes/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mvscorg.github.io/mozdm-design/ref/github_api/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
      <loc>https://mvscorg.github.io/mozdm-design/meta/collaboration/</loc>
      <lastmod>2017-05-23</lastmod>
      <changefreq>daily</changefreq>

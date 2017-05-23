@@ -22,7 +22,7 @@
         }, 
         {
             "location": "/overview/", 
-            "text": "System Overview\n\n\n\n\nContracts\n\n\nTypes\n\n\nThe system supports two types of contracts:\n\n\n\n\n\n\na \nBounty\n \n\n  eg \nI will pay $X if Issue $Y is resolved before $Date\n\n\n\n\n\n\na \nPrediction\n \n\n  eg \nI will pay $X if an Issue with ${MATCH PARAMS} is opened before $DATE\n\n\n\n\n\n\nPayout Algorithm\n\n\n\n\nWe will create a DSL for pluggable payout algorithms\n\n\nEach contract is associated with one (and only one) payout algorithm\n\n\n\n\nRepos\n\n\nTypes\n\n\nA collection of \nRepo Types\n are hard coded into the system.\n\n\n\n\n\n\n\n\nREPO TYPE\n\n\nSUPPORTED CONTRACT TYPES\n\n\n\n\n\n\n\n\n\n\nGitHub\n\n\nBOUNTY, PREDICTION\n\n\n\n\n\n\nBugZilla\n\n\nBOUNTY, PREDICTION\n\n\n\n\n\n\nCVE\n\n\nPREDICTION\n\n\n\n\n\n\n\n\nCharacteristics\n\n\n\n\nSome repos are hard-coded in the system (BugZilla/Firefox,\n  BugZilla/Thunderbird, CVE)\n\n\nSome repos are added dynamically by users (GitHub/Repo1, GitHub/Repo2, ...)\n\n\n\n\nIssues\n\n\nAttributes\n\n\nNote: For each issue we can programatically extract:\n\n\n\n\nthe issue status (Open, Closed)\n\n\nthe issue metadata\n\n\n\n\n\n\n\n\n\n\nREPO TYPE\n\n\nREPO META-DATA\n\n\n\n\n\n\n\n\n\n\nCVE\n\n\n[hardcoded] severity, type, etc. etc.\n\n\n\n\n\n\nBugZilla\n\n\n[hardcoded] severity, etc.\n\n\n\n\n\n\nGitHub\n\n\n[dynamic] labels\n\n\n\n\n\n\n\n\nSync\n\n\nWe pull issues from each repo periodicaly (once an hour?) and resolve in the\noracle.\n\n\nMatch Params\n\n\n\n\nCVE\n - match against issue metadata\n\n\nBUGZILLA\n - match against issue metadata\n\n\nGitHub\n - match against issue labels\n\n\n\n\nQuestions\n\n\n\n\nare the CONTRACT TYPES correct - are there only two??\n\n\nwhat is the best vocabulary to use?\n\n\nwhat is the right language to describe the CONTRACT TYPES??\n\n\nwhat happens if params change during the contract period?", 
+            "text": "System Overview\n\n\n\n\nContracts\n\n\nTypes\n\n\nThe system supports two types of contracts:\n\n\n\n\n\n\na \nBounty\n \n\n  eg \nI will pay $X if Issue $Y is resolved before $Date\n\n\n\n\n\n\na \nPrediction\n \n\n  eg \nI will pay $X if an Issue with ${MATCH PARAMS} is opened before $DATE\n\n\n\n\n\n\nPayout Algorithm\n\n\n\n\nWe will create a DSL for pluggable payout algorithms\n\n\nEach contract is associated with one (and only one) payout algorithm\n\n\n\n\nRepos\n\n\nTypes\n\n\nA collection of \nRepo Types\n are hard coded into the system.\n\n\n\n\n\n\n\n\nREPO TYPE\n\n\nSUPPORTED CONTRACT TYPES\n\n\n\n\n\n\n\n\n\n\nGitHub\n\n\nBOUNTY, PREDICTION\n\n\n\n\n\n\nBugZilla\n\n\nBOUNTY, PREDICTION\n\n\n\n\n\n\nCVE\n\n\nPREDICTION\n\n\n\n\n\n\n\n\nCharacteristics\n\n\n\n\nSome repos are hard-coded in the system (BugZilla/Firefox,\n  BugZilla/Thunderbird, CVE)\n\n\nSome repos are added dynamically by users (GitHub/Repo1, GitHub/Repo2, ...)\n\n\n\n\nIssues\n\n\nAttributes\n\n\nNote: For each issue we can programatically extract:\n\n\n\n\nthe issue status (Open, Closed)\n\n\nthe issue metadata\n\n\n\n\n\n\n\n\n\n\nREPO TYPE\n\n\nISSUE META-DATA\n\n\n\n\n\n\n\n\n\n\nCVE\n\n\n[hardcoded] severity, type, etc. etc.\n\n\n\n\n\n\nBugZilla\n\n\n[hardcoded] severity, etc.\n\n\n\n\n\n\nGitHub\n\n\n[dynamic] labels\n\n\n\n\n\n\n\n\nSync\n\n\nWe pull issues from each repo periodicaly (once an hour?) and resolve in the\noracle.\n\n\nMatch Params\n\n\n\n\nCVE\n - match against issue metadata\n\n\nBUGZILLA\n - match against issue metadata\n\n\nGitHub\n - match against issue labels\n\n\n\n\nQuestions\n\n\n\n\nare the CONTRACT TYPES correct - are there only two??\n\n\nwhat is the best vocabulary to use?\n\n\nwhat is the right language to describe the CONTRACT TYPES??\n\n\nwhat happens if params change during the contract period?", 
             "title": "Overview"
         }, 
         {
@@ -67,7 +67,7 @@
         }, 
         {
             "location": "/overview/#attributes", 
-            "text": "Note: For each issue we can programatically extract:   the issue status (Open, Closed)  the issue metadata      REPO TYPE  REPO META-DATA      CVE  [hardcoded] severity, type, etc. etc.    BugZilla  [hardcoded] severity, etc.    GitHub  [dynamic] labels", 
+            "text": "Note: For each issue we can programatically extract:   the issue status (Open, Closed)  the issue metadata      REPO TYPE  ISSUE META-DATA      CVE  [hardcoded] severity, type, etc. etc.    BugZilla  [hardcoded] severity, etc.    GitHub  [dynamic] labels", 
             "title": "Attributes"
         }, 
         {
@@ -309,6 +309,26 @@
             "location": "/dapp/#screen-shots", 
             "text": "Content TBD", 
             "title": "Screen Shots"
+        }, 
+        {
+            "location": "/ref/cve_attributes/", 
+            "text": "CVE Attributes\n\n\nFields\n\n\n\n\n\n\nDetail", 
+            "title": "CVE Attributes"
+        }, 
+        {
+            "location": "/ref/cve_attributes/#cve-attributes", 
+            "text": "Fields    Detail", 
+            "title": "CVE Attributes"
+        }, 
+        {
+            "location": "/ref/github_api/", 
+            "text": "GitHub Api\n\n\nGitHub Issues API", 
+            "title": "GitHub API"
+        }, 
+        {
+            "location": "/ref/github_api/#github-api", 
+            "text": "GitHub Issues API", 
+            "title": "GitHub Api"
         }, 
         {
             "location": "/meta/collaboration/", 
