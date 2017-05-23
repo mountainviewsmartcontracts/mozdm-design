@@ -6,12 +6,12 @@
 # 1. copy the site directory to .ipfs_site
 # 2. add a header "( published to IPFS 17-05-10 12:45 )" 
 # 3. publish the site to IPFS (using `ipfs add -r .ipfs_site`)
-# 4. record the site hash in a link on `ipfs.md`
+# 4. record the site hash in a link on `meta/ipfs.md`
 
 date=`date +'%y-%m-%d %H:%M:%S'`
 
-# remove the old directory and copy the new directory in
-# the .ipfs_site directory is not checked in to git...
+# remove the old directory and copy the new directory over
+# note: the .ipfs_site directory is not checked in to git...
 rm -rf .ipfs_site
 cp -r site .ipfs_site
 
@@ -22,15 +22,15 @@ info="<p><small>( published to IPFS $date )</small></p>"
 sed "/<h1/ a $info" .ipfs_site/index.html > /tmp/index.html
 mv /tmp/index.html .ipfs_site/index.html
 
-# publish the site to IPFS
+# publish the site to IPFS and capture the content address (the $hash)
 hash=`ipfs add -r .ipfs_site | tail -1 | cut -f2 -d ' '`
 
 # add a link to the IPFS site to the `ipfs.md` page
 wurl="https://gateway.ipfs.io/ipfs/$hash"
 newl="| $date | [ $hash ]( $wurl )"
 
-sed "/| ----/ a $newl" docs/ipfs.md > /tmp/ipfs.md
-mv /tmp/ipfs.md docs/ipfs.md
+sed "/| ----/ a $newl" docs/meta/ipfs.md > /tmp/ipfs.md
+mv /tmp/ipfs.md docs/meta/ipfs.md
 
 # done!
 echo "Published new IPFS Version at $wurl"
