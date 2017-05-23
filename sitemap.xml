@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/</loc>
+     <loc>https://mvscorg.github.io/mozdm-design/</loc>
      <lastmod>2017-05-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,7 +11,7 @@
 
     
     <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/overview/</loc>
+     <loc>https://mvscorg.github.io/mozdm-design/overview/</loc>
      <lastmod>2017-05-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -19,53 +19,7 @@
 
     
     <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/scenarios/</loc>
-     <lastmod>2017-05-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-        
-    <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/use_cases/</loc>
-     <lastmod>2017-05-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/cases/all_roles/</loc>
-     <lastmod>2017-05-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/cases/product_manager/</loc>
-     <lastmod>2017-05-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-    <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/objects/</loc>
-     <lastmod>2017-05-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/incentive/</loc>
-     <lastmod>2017-05-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/dapp/</loc>
+     <loc>https://mvscorg.github.io/mozdm-design/scenarios/</loc>
      <lastmod>2017-05-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -74,13 +28,59 @@
     
         
     <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/meta/collaboration/</loc>
+     <loc>https://mvscorg.github.io/mozdm-design/use_cases/</loc>
      <lastmod>2017-05-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://mountainviewsmartcontracts.github.io/mozdm-design/meta/ipfs/</loc>
+     <loc>https://mvscorg.github.io/mozdm-design/cases/all_roles/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mvscorg.github.io/mozdm-design/cases/product_manager/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://mvscorg.github.io/mozdm-design/objects/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://mvscorg.github.io/mozdm-design/incentive/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://mvscorg.github.io/mozdm-design/dapp/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://mvscorg.github.io/mozdm-design/meta/collaboration/</loc>
+     <lastmod>2017-05-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mvscorg.github.io/mozdm-design/meta/ipfs/</loc>
      <lastmod>2017-05-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
