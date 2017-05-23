@@ -18,6 +18,7 @@ markdown_extensions:
 pages:
   - Home:             index.md
   - Overview:         overview.md
+  - Actors:           actors.md
   - Usage Scenarios:  scenarios.md
   - Use Cases:   
     - Overview:            use_cases.md
