@@ -222,7 +222,7 @@
         },
         {
             "location": "/objects/",
-            "text": "XD Markets - Software Objects\n\u00b6\n\n\nSoftware Objects\n\u00b6\n\n\nAccount\n\u00b6\n\n\nAnyone who interacts with the system must have an account.\n\n\nAttributes:\n\n username (optional)\n\n email (optional - for notifications)\n* ethereum public key\n\n\nPayout\n\u00b6\n\n\nAttributes:\n\n owner\n\n DSL - represented as a JSON object\n\n visibilty (public/private)\n\n status (test / production / retired)\n\n\nPrediction\n\u00b6\n\n\nAttributes:\n\n Challenger\n\n Amount\n\n\nRepo\n\u00b6\n\n\nAttributes:\n\n repo type (GitHub, BugZilla)\n\n URL\n\n\nIssue\n\u00b6\n\n\nPrediction\n\u00b6\n\n\nChallenge\n\u00b6",
+            "text": "XD Markets - Software Objects\n\u00b6\n\n\nSoftware Objects\n\u00b6\n\n\nAccount\n\u00b6\n\n\nAnyone who interacts with the system must have an account.\n\n\nAttributes:\n\n\n\n\nusername (optional)\n\n\nemail (optional - for notifications)\n\n\nethereum public key\n\n\n\n\nPayout\n\u00b6\n\n\nAttributes:\n\n\n\n\nowner\n\n\nDSL - represented as a JSON object\n\n\nvisibilty (public/private)\n\n\nstatus (test / production / retired)\n\n\n\n\nPrediction\n\u00b6\n\n\nAttributes:\n\n\n\n\nChallenger\n\n\nAmount\n\n\n\n\nRepo\n\u00b6\n\n\nAttributes:\n\n\n\n\nrepo type (GitHub, BugZilla)\n\n\nURL\n\n\n\n\nIssue\n\u00b6\n\n\nPrediction\n\u00b6\n\n\nChallenge\n\u00b6",
             "title": "Software Objects"
         },
         {
@@ -237,22 +237,22 @@
         },
         {
             "location": "/objects/#account",
-            "text": "Anyone who interacts with the system must have an account.  Attributes:  username (optional)  email (optional - for notifications)\n* ethereum public key",
+            "text": "Anyone who interacts with the system must have an account.  Attributes:   username (optional)  email (optional - for notifications)  ethereum public key",
             "title": "Account"
         },
         {
             "location": "/objects/#payout",
-            "text": "Attributes:  owner  DSL - represented as a JSON object  visibilty (public/private)  status (test / production / retired)",
+            "text": "Attributes:   owner  DSL - represented as a JSON object  visibilty (public/private)  status (test / production / retired)",
             "title": "Payout"
         },
         {
             "location": "/objects/#prediction",
-            "text": "Attributes:  Challenger  Amount",
+            "text": "Attributes:   Challenger  Amount",
             "title": "Prediction"
         },
         {
             "location": "/objects/#repo",
-            "text": "Attributes:  repo type (GitHub, BugZilla)  URL",
+            "text": "Attributes:   repo type (GitHub, BugZilla)  URL",
             "title": "Repo"
         },
         {
