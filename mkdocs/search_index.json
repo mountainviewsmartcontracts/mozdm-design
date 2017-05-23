@@ -222,7 +222,7 @@
         },
         {
             "location": "/objects/",
-            "text": "XD Markets - Software Objects\n\u00b6\n\n\nSoftware Objects\n\u00b6\n\n\nAccount\n\u00b6\n\n\nAnyone who interacts with the system must have an account.\n\n\nAttributes:\n\n\n\n\nUsername (optional)\n\n\nEmail (optional - for notifications)\n\n\nEthereum account public key\n\n\n\n\nBounty\n\u00b6\n\n\nAttributes:\n\n\n\n\nAmount\n\n\nIssue Number\n\n\nDate\n\n\n\n\nBounty Publisher\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nBounty Counterparty\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nForecast\n\u00b6\n\n\nAttributes:\n\n\n\n\nAmount\n\n\nMatch Params\n\n\nDate\n\n\n\n\nForecast Publisher\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nForecast Counterparty\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nRepo\n\u00b6\n\n\nAttributes:\n\n\n\n\nRepo type (GitHub, BugZilla)\n\n\nURL\n\n\n\n\nIssue\n\u00b6\n\n\nPrediction\n\u00b6\n\n\nChallenge\n\u00b6",
+            "text": "XD Markets - Software Objects\n\u00b6\n\n\nSoftware Objects\n\u00b6\n\n\nAccount\n\u00b6\n\n\nAnyone who interacts with the system must have an account.\n\n\nAttributes:\n\n\n\n\nUsername (optional)\n\n\nEmail (optional - for notifications)\n\n\nEthereum account public key\n\n\n\n\nBounty\n\u00b6\n\n\nAttributes:\n\n\n\n\nTotal Amount\n\n\nIssue Number\n\n\nDate\n\n\n\n\nBounty Publisher\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nBounty Counterparty\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nForecast\n\u00b6\n\n\nAttributes:\n\n\n\n\nTotal Amount\n\n\nMatch Params\n\n\nDate\n\n\n\n\nForecast Publisher\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nForecast Counterparty\n\u00b6\n\n\nAttributes:\n\n\n\n\nPublic key\n\n\nAmount\n\n\n\n\nRepo\n\u00b6\n\n\nAttributes:\n\n\n\n\nRepo type (GitHub, BugZilla)\n\n\nURL\n\n\n\n\nIssue\n\u00b6\n\n\nPrediction\n\u00b6\n\n\nChallenge\n\u00b6",
             "title": "Software Objects"
         },
         {
@@ -242,7 +242,7 @@
         },
         {
             "location": "/objects/#bounty",
-            "text": "Attributes:   Amount  Issue Number  Date",
+            "text": "Attributes:   Total Amount  Issue Number  Date",
             "title": "Bounty"
         },
         {
@@ -257,7 +257,7 @@
         },
         {
             "location": "/objects/#forecast",
-            "text": "Attributes:   Amount  Match Params  Date",
+            "text": "Attributes:   Total Amount  Match Params  Date",
             "title": "Forecast"
         },
         {
