@@ -17,7 +17,7 @@ markdown_extensions:
   - toc(permalink=true)
 pages:
   - Home:             index.md
-  - Collaboration:    collaboration.md
+  - Overview:         overview.md
   - Usage Scenarios:  scenarios.md
   - Use Cases:   
     - Overview:            use_cases.md
@@ -26,4 +26,6 @@ pages:
   - Software Objects: objects.md
   - Incentives:       incentive.md
   - Dapps:            dapp.md
-  - IPFS:             ipfs.md
+  - Meta:
+    - Collaboration:    meta/collaboration.md
+    - IPFS:             meta/ipfs.md

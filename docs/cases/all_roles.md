@@ -25,10 +25,8 @@ sign up or log in.
 
 ## Sign In
 
-User Signs in. Ding.
-
 ![SignIn](/img/_SignIn.png)
 
-SignIn is necessary for placing or taking bets.  (what is the right vocabulary
-for 'placing and taking bets'?)
+SignIn is necessary for publishing or accepting contracts.  (what is the right vocabulary
+here?)
 
