@@ -30,3 +30,16 @@ sign up or log in.
 SignIn is necessary for publishing or accepting contracts.  (what is the right vocabulary
 here?)
 
+## Create a prediction
+
+![Make Predictions](/img/_make_predictions.png)
+
+The idea here is that we are separating the 
+
+## Create a bet (take either side)
+
+![Make a Bet](/img/_make_bets.png)
+
+Needs work. You can bet whatever you want as a PUBLISHER.  As the COUNTERPARTY you can only take a portion (up to 100%) of the available published bets - you can't initiate a bet as a counterparty.  We had discussed making this all or nothing for the counterparty.
+
+
