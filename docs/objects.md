@@ -16,7 +16,7 @@ Attributes:
 
 Attributes:
 
- * Amount
+ * Total Amount
  * Issue Number
  * Date
 
@@ -38,7 +38,7 @@ Attributes:
 
 Attributes:
 
- * Amount
+ * Total Amount
  * Match Params
  * Date
 
