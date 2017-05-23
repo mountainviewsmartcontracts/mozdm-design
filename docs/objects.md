@@ -8,31 +8,59 @@ Anyone who interacts with the system must have an account.
 
 Attributes:
 
- * username (optional)
- * email (optional - for notifications)
- * ethereum public key
+ * Username (optional)
+ * Email (optional - for notifications)
+ * Ethereum account public key
 
-### Payout
-
-Attributes:
-
- * owner
- * DSL - represented as a JSON object
- * visibilty (public/private)
- * status (test / production / retired)
-
-### Prediction
+### Bounty
 
 Attributes:
 
- * Challenger
+ * Amount
+ * Issue Number
+ * Date
+
+### Bounty Publisher
+
+Attributes:
+
+ * Public key
+ * Amount
+
+### Bounty Counterparty
+
+Attributes:
+
+ * Public key
+ * Amount
+
+### Forecast
+
+Attributes:
+
+ * Amount
+ * Match Params
+ * Date
+
+### Forecast Publisher
+
+Attributes:
+
+ * Public key
+ * Amount
+
+### Forecast Counterparty
+
+Attributes:
+
+ * Public key
  * Amount
 
 ### Repo
 
 Attributes:
 
- * repo type (GitHub, BugZilla)
+ * Repo type (GitHub, BugZilla)
  * URL
 
 ### Issue
