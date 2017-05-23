@@ -1,12 +1,12 @@
 # Use Cases
 
-| Actor           | Organization | Overview                      |
-|-----------------|--------------|-------------------------------|
-| Product Manager | Any          | Manages Payout Algorithms     |
-| Developer       | Any          | Watches Market, Fixes Bugs    |
-| Product Owner   | Mozilla      | Assembles and Watches Metrics |
-| Challenger      | Any          | Creates new prediction        |
-| Participant     | Any          | Reviews and takes prediction  |
+| Actor           | Organization | Overview                            |
+|-----------------|--------------|-------------------------------------|
+| Product Manager | Any          | Manages Payout Algorithms           |
+| Developer       | Any          | Watches Market, Fixes Bugs          |
+| Product Owner   | Mozilla      | Assembles and Watches Metrics       |
+| Publisher       | Any          | Configures/Publishes a new contract |
+| Counterparty    | Any          | Takes a contract                    |
 
 ## Product Manager
 
@@ -33,10 +33,13 @@
 - creates an account
 - collects metrics
 
-## Challenger
+## Contract Publisher
 
 - creats an account
 - creates prediction
 
-## Participant
+## Contract Counterparty
+
+- searches for contracts
+- takes a contract
 
