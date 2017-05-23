@@ -25,6 +25,7 @@ pages:
     - All Roles:           cases/all_roles.md
     - Product Manager:     cases/product_manager.md
   - Software Objects: objects.md
+  - Process Interaction: process.md
   - Incentives:       incentive.md
   - Dapps:            dapp.md
   - Reference:
