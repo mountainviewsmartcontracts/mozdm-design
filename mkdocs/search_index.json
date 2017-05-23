@@ -132,12 +132,12 @@
         }, 
         {
             "location": "/use_cases/", 
-            "text": "Use Cases\n\n\n\n\n\n\n\n\nActor\n\n\nOrganization\n\n\nOverview\n\n\n\n\n\n\n\n\n\n\nProduct Manager\n\n\nAny\n\n\nManages Payout Algorithms\n\n\n\n\n\n\nDeveloper\n\n\nAny\n\n\nWatches Market, Fixes Bugs\n\n\n\n\n\n\nProduct Owner\n\n\nMozilla\n\n\nAssembles and Watches Metrics\n\n\n\n\n\n\nChallenger\n\n\nAny\n\n\nCreates new prediction\n\n\n\n\n\n\nParticipant\n\n\nAny\n\n\nReviews and takes prediction\n\n\n\n\n\n\n\n\nProduct Manager\n\n\n\n\n\n\n\n\nPrioritization Use Case\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\ncreate an account\n\n\nCreate an account\n\n\n\n\n\n\ncreate payout\n\n\nCreate payout\n\n\n\n\n\n\nbacktest payout\n\n\nCreate payout\n\n\n\n\n\n\nretire payout\n\n\nRetire payout\n\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\ncreates an account\n\n\naccepts challenge\n\n\nfixes bugs\n\n\n\n\nProduct Owner\n\n\n\n\ncreates an account\n\n\ncollects metrics\n\n\n\n\nChallenger\n\n\n\n\ncreats an account\n\n\ncreates prediction\n\n\n\n\nParticipant", 
+            "text": "Use Cases\n\n\n\n\n\n\n\n\nActor\n\n\nOrganization\n\n\nOverview\n\n\n\n\n\n\n\n\n\n\nProduct Manager\n\n\nAny\n\n\nManages Payout Algorithms\n\n\n\n\n\n\nDeveloper\n\n\nAny\n\n\nWatches Market, Fixes Bugs\n\n\n\n\n\n\nProduct Owner\n\n\nMozilla\n\n\nAssembles and Watches Metrics\n\n\n\n\n\n\nPublisher\n\n\nAny\n\n\nConfigures/Publishes a new contract\n\n\n\n\n\n\nCounterparty\n\n\nAny\n\n\nTakes a contract\n\n\n\n\n\n\n\n\nProduct Manager\n\n\n\n\n\n\n\n\nPrioritization Use Case\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\ncreate an account\n\n\nCreate an account\n\n\n\n\n\n\ncreate payout\n\n\nCreate payout\n\n\n\n\n\n\nbacktest payout\n\n\nCreate payout\n\n\n\n\n\n\nretire payout\n\n\nRetire payout\n\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\ncreates an account\n\n\naccepts challenge\n\n\nfixes bugs\n\n\n\n\nProduct Owner\n\n\n\n\ncreates an account\n\n\ncollects metrics\n\n\n\n\nContract Publisher\n\n\n\n\ncreats an account\n\n\ncreates prediction\n\n\n\n\nContract Counterparty\n\n\n\n\nsearches for contracts\n\n\ntakes a contract", 
             "title": "Overview"
         }, 
         {
             "location": "/use_cases/#use-cases", 
-            "text": "Actor  Organization  Overview      Product Manager  Any  Manages Payout Algorithms    Developer  Any  Watches Market, Fixes Bugs    Product Owner  Mozilla  Assembles and Watches Metrics    Challenger  Any  Creates new prediction    Participant  Any  Reviews and takes prediction", 
+            "text": "Actor  Organization  Overview      Product Manager  Any  Manages Payout Algorithms    Developer  Any  Watches Market, Fixes Bugs    Product Owner  Mozilla  Assembles and Watches Metrics    Publisher  Any  Configures/Publishes a new contract    Counterparty  Any  Takes a contract", 
             "title": "Use Cases"
         }, 
         {
@@ -156,14 +156,14 @@
             "title": "Product Owner"
         }, 
         {
-            "location": "/use_cases/#challenger", 
+            "location": "/use_cases/#contract-publisher", 
             "text": "creats an account  creates prediction", 
-            "title": "Challenger"
+            "title": "Contract Publisher"
         }, 
         {
-            "location": "/use_cases/#participant", 
-            "text": "", 
-            "title": "Participant"
+            "location": "/use_cases/#contract-counterparty", 
+            "text": "searches for contracts  takes a contract", 
+            "title": "Contract Counterparty"
         }, 
         {
             "location": "/cases/all_roles/", 
