@@ -1,12 +1,15 @@
-# XD Markets - Usage Scenarios
+# Usage Scenarios
 
-## Description
+## Developer has a Fix
 
-## Scenarios
+TBD
 
-### Developer has a Fix
+## Developer Takes High-Value Bug
 
-### Developer Select High-Value Bugs
+TBD
 
-### Developer Selects Easy-to-Fix Bugs
+## Developer Takes Easy-to-Fix Bug
+
+TBD
+
 

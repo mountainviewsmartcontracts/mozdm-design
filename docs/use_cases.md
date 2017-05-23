@@ -1,10 +1,4 @@
-# XDMarket - Use Cases
-
-## Sensing Use Cases
-
-Under Construction
-
-## Prioritization Use Cases
+# Use Cases
 
 | Actor           | Organization | Overview                      |
 |-----------------|--------------|-------------------------------|
@@ -14,7 +8,7 @@ Under Construction
 | Challenger      | Any          | Creates new prediction        |
 | Participant     | Any          | Reviews and takes prediction  |
 
-### Product Manager
+## Product Manager
 
 | Prioritization Use Case             | Description       |
 |-------------------------------------|-------------------|
@@ -28,21 +22,21 @@ Under Construction
 [backtest_payout]: cases/product_manager/#create-an-account
 [retire_payout]:   cases/product_manager/#create-an-account
 
-### Developer
+## Developer
 
 - creates an account
 - accepts challenge
 - fixes bugs
 
-### Product Owner
+## Product Owner
 
 - creates an account
 - collects metrics
 
-### Challenger
+## Challenger
 
 - creats an account
 - creates prediction
 
-### Participant
+## Participant
 

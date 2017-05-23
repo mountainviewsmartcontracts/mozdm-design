@@ -23,13 +23,23 @@ The system supports two types of contracts:
 
 ### Types
 
-A collection of "Repo Types" are hard coded into the system.
+A collection of *Repo Types* are hard coded into the system.
 
-| REPO     | CONTRACT TYPES     |
-|----------|--------------------|
-| GitHub   | BOUNTY, PREDICTION |
-| BugZilla | BOUNTY, PREDICTION |
-| CVE      | PREDICTION         |
+| REPO TYPE | SUPPORTED CONTRACT TYPES |
+|-----------|--------------------------|
+| GitHub    | BOUNTY, PREDICTION       |
+| BugZilla  | BOUNTY, PREDICTION       |
+| CVE       | PREDICTION               |
+
+### Characteristics
+
+- Some repos are hard-coded in the system (BugZilla/Firefox,
+  BugZilla/Thunderbird, CVE)
+- Some repos are added dynamically by users (GitHub/Repo1, GitHub/Repo2, ...)
+
+## Issues
+
+### Attributes
 
 Note: For each issue we can programatically extract:
 
@@ -42,25 +52,20 @@ Note: For each issue we can programatically extract:
 | BugZilla  | [hardcoded] severity, etc.            |
 | GitHub    | [dynamic] labels                      |
 
-### Characteristics
-
-- Some repos are hard-coded in the system (BugZilla/Firefox, BugZilla/Thunderbird, CVE)
-- Some repos are added dynamically by users (GitHub/Repo1, GitHub/Repo2, ...)
-
-## Issues
-
 ### Sync
 
-We pull issues from each repo periodicaly (once an hour?) and resolve in the oracle
+We pull issues from each repo periodicaly (once an hour?) and resolve in the
+oracle.
 
 ### Match Params
 
-CVE - match against issue metadata
-BUGZILLA - match against issue metadata
-GitHub - match against issue labels
+- **CVE** - match against issue metadata
+- **BUGZILLA** - match against issue metadata
+- **GitHub** - match against issue labels
 
 ## Questions
 
 - are the CONTRACT TYPES correct - are there only two??
 - what is the best vocabulary to use?
 - what is the right language to describe the CONTRACT TYPES??
+- what happens if params change during the contract period?

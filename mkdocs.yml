@@ -1,7 +1,7 @@
 site_name:        'XDMarket'
 site_author:      'MVSC'
 site_description: 'XDMarket Project Documentation'
-site_url:         'https://mountainviewsmartcontracts.github.io/mozdm-design'
+site_url:         'https://mvscorg.github.io/mozdm-design'
 site_favicon:     'img/favicon.gif'
 theme_dir:        '_theme/material'
 copyright:        'Copyright &copy; 2017 Mountain View Smart Contracts'
@@ -11,7 +11,7 @@ extra:
     primary: 'green'
   social:
     - type: 'github'
-      link: 'https://github.com/mountainviewsmartcontracts/mozdm-design'
+      link: 'https://github.com/mvscorg/mozdm-design'
 markdown_extensions:
   - admonition
   - toc(permalink=true)
