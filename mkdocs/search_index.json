@@ -122,7 +122,7 @@
         }, 
         {
             "location": "/cases/all_roles/", 
-            "text": "All Roles\n\n\nView Home Page\n\n\nA public user learns about XDMarket concept and has options to\nsign up or log in.\n\n\n\n\n\n\n\n\nExplain the XDMarket concept.  \n\n\n\n\nExample\n\n\nXDMarket is an extensible marketplace for software predictions\nand defects...\n\n\n\n\n\n\n\n\nShow XDMarket statistics.\n\n\n\n\nExample\n\n\nRepos: 14\n\nOpen Issues: 437\n\nClosed Issues: 19\n\n30-day Payouts: $5342\n\n\n\n\n\n\n\n\nShow a graph with historical data.\n\n\n\n\n\n\nSign In\n\n\nUser Signs in.", 
+            "text": "All Roles\n\n\nView Home Page\n\n\nA public user learns about XDMarket concept and has options to\nsign up or log in.\n\n\n\n\n\n\n\n\nExplain the XDMarket concept.  \n\n\n\n\nExample\n\n\nXDMarket is an extensible marketplace for software predictions\nand defects...\n\n\n\n\n\n\n\n\nShow XDMarket statistics.\n\n\n\n\nExample\n\n\nRepos: 14\n\nOpen Issues: 437\n\nClosed Issues: 19\n\n30-day Payouts: $5342\n\n\n\n\n\n\n\n\nShow a graph with historical data.\n\n\n\n\n\n\nSign In\n\n\nUser Signs in. Ding.\n\n\n\n\nSignIn is necessary for placing or taking bets.  (what is the right vocabulary\nfor 'placing and taking bets'?)", 
             "title": "All Roles"
         }, 
         {
@@ -137,7 +137,7 @@
         }, 
         {
             "location": "/cases/all_roles/#sign-in", 
-            "text": "User Signs in.", 
+            "text": "User Signs in. Ding.   SignIn is necessary for placing or taking bets.  (what is the right vocabulary\nfor 'placing and taking bets'?)", 
             "title": "Sign In"
         }, 
         {
