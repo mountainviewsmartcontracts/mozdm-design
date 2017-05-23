@@ -27,6 +27,9 @@ pages:
   - Software Objects: objects.md
   - Incentives:       incentive.md
   - Dapps:            dapp.md
+  - Reference:
+    - CVE Attributes: ref/cve_attributes.md
+    - GitHub API:     ref/github_api.md
   - Meta:
     - Collaboration:    meta/collaboration.md
     - IPFS:             meta/ipfs.md

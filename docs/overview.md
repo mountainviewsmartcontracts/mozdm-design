@@ -46,7 +46,7 @@ Note: For each issue we can programatically extract:
 - the issue status (Open, Closed)
 - the issue metadata
 
-| REPO TYPE | REPO META-DATA                        |
+| REPO TYPE | ISSUE META-DATA                       |
 |-----------|---------------------------------------|
 | CVE       | [hardcoded] severity, type, etc. etc. |
 | BugZilla  | [hardcoded] severity, etc.            |
