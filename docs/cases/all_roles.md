@@ -34,7 +34,7 @@ here?)
 
 ![Make Predictions](/img/_make_predictions.png)
 
-The idea here is that we are separating the 
+The idea here is that we are separating the creation of a prediction from the making of bets.
 
 ## Create a bet (take either side)
 
