@@ -167,7 +167,7 @@
         },
         {
             "location": "/cases/all_roles/",
-            "text": "All Roles\n\u00b6\n\n\nView Home Page\n\u00b6\n\n\nA public user learns about XDMarket concept and has options to\nsign up or log in.\n\n\n\n\n\n\n\n\nExplain the XDMarket concept.  \n\n\n\n\nExample\n\n\nXDMarket is an extensible marketplace for software predictions\nand defects...\n\n\n\n\n\n\n\n\nShow XDMarket statistics.\n\n\n\n\nExample\n\n\nRepos: 14\n\nOpen Issues: 437\n\nClosed Issues: 19\n\n30-day Payouts: $5342\n\n\n\n\n\n\n\n\nShow a graph with historical data.\n\n\n\n\n\n\nSign In\n\u00b6\n\n\n\n\nSignIn is necessary for publishing or accepting contracts.  (what is the right vocabulary\nhere?)",
+            "text": "All Roles\n\u00b6\n\n\nView Home Page\n\u00b6\n\n\nA public user learns about XDMarket concept and has options to\nsign up or log in.\n\n\n\n\n\n\n\n\nExplain the XDMarket concept.  \n\n\n\n\nExample\n\n\nXDMarket is an extensible marketplace for software predictions\nand defects...\n\n\n\n\n\n\n\n\nShow XDMarket statistics.\n\n\n\n\nExample\n\n\nRepos: 14\n\nOpen Issues: 437\n\nClosed Issues: 19\n\n30-day Payouts: $5342\n\n\n\n\n\n\n\n\nShow a graph with historical data.\n\n\n\n\n\n\nSign In\n\u00b6\n\n\n\n\nSignIn is necessary for publishing or accepting contracts.  (what is the right vocabulary\nhere?)\n\n\nCreate a prediction\n\u00b6\n\n\n\n\nThe idea here is that we are separating the \n\n\nCreate a bet (take either side)\n\u00b6\n\n\n\n\nNeeds work. You can bet whatever you want as a PUBLISHER.  As the COUNTERPARTY you can only take a portion (up to 100%) of the available published bets - you can't initiate a bet as a counterparty.  We had discussed making this all or nothing for the counterparty.",
             "title": "All Roles"
         },
         {
@@ -184,6 +184,16 @@
             "location": "/cases/all_roles/#sign-in",
             "text": "SignIn is necessary for publishing or accepting contracts.  (what is the right vocabulary\nhere?)",
             "title": "Sign In"
+        },
+        {
+            "location": "/cases/all_roles/#create-a-prediction",
+            "text": "The idea here is that we are separating the",
+            "title": "Create a prediction"
+        },
+        {
+            "location": "/cases/all_roles/#create-a-bet-take-either-side",
+            "text": "Needs work. You can bet whatever you want as a PUBLISHER.  As the COUNTERPARTY you can only take a portion (up to 100%) of the available published bets - you can't initiate a bet as a counterparty.  We had discussed making this all or nothing for the counterparty.",
+            "title": "Create a bet (take either side)"
         },
         {
             "location": "/cases/product_manager/",
