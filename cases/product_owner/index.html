@@ -9,7 +9,7 @@
         <meta name="description" content="XDMarket Project Documentation">
       
       
-        <link rel="canonical" href="https://mvscorg.github.io/mozdm-design/ref/cve_attributes/">
+        <link rel="canonical" href="https://mvscorg.github.io/mozdm-design/cases/product_owner/">
       
       
         <meta name="author" content="MVSC">
@@ -21,7 +21,7 @@
     
     
       
-        <title>CVE Attributes - XDMarket</title>
+        <title>Product Owner - XDMarket</title>
       
     
     
@@ -80,11 +80,11 @@
             
               
                 <span class="md-header-nav__parent">
-                  Reference
+                  Use Cases
                 </span>
               
             
-            CVE Attributes
+            Product Owner
           
         </span>
       </div>
@@ -183,10 +183,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       Use Cases
@@ -216,7 +218,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../cases/all_roles/" title="All Roles" class="md-nav__link">
+    <a href="../all_roles/" title="All Roles" class="md-nav__link">
       All Roles
     </a>
   </li>
@@ -226,11 +228,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../cases/product_owner/" title="Product Owner" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="./" title="Product Owner" class="md-nav__link md-nav__link--active">
       Product Owner
     </a>
+    
   </li>
 
         
@@ -240,7 +251,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../cases/product_manager/" title="Product Manager" class="md-nav__link">
+    <a href="../product_manager/" title="Product Manager" class="md-nav__link">
       Product Manager
     </a>
   </li>
@@ -252,7 +263,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../cases/developer/" title="Developer" class="md-nav__link">
+    <a href="../developer/" title="Developer" class="md-nav__link">
       Developer
     </a>
   </li>
@@ -264,7 +275,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../cases/publisher/" title="Publisher" class="md-nav__link">
+    <a href="../publisher/" title="Publisher" class="md-nav__link">
       Publisher
     </a>
   </li>
@@ -276,7 +287,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../cases/counterparty/" title="Counterparty" class="md-nav__link">
+    <a href="../counterparty/" title="Counterparty" class="md-nav__link">
       Counterparty
     </a>
   </li>
@@ -339,12 +350,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
     
     <label class="md-nav__link" for="nav-9">
       Reference
@@ -360,20 +369,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-    <a href="./" title="CVE Attributes" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../ref/cve_attributes/" title="CVE Attributes" class="md-nav__link">
       CVE Attributes
     </a>
-    
   </li>
 
         
@@ -383,7 +383,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../github_api/" title="GitHub API" class="md-nav__link">
+    <a href="../../ref/github_api/" title="GitHub API" class="md-nav__link">
       GitHub API
     </a>
   </li>
@@ -470,12 +470,13 @@
               
                 
                 
-                <h1 id="cve-attributes">CVE Attributes<a class="headerlink" href="#cve-attributes" title="Permanent link">&para;</a></h1>
-<p><strong>Fields</strong></p>
-<p><img alt="CVE_FIELDS" src="../../img/CveFields.png" /></p>
-<hr />
-<p><strong>Detail</strong></p>
-<p><img alt="CVE_DETAIL" src="../../img/CveDetail.png" /></p>
+                <h1 id="product-owner">Product Owner<a class="headerlink" href="#product-owner" title="Permanent link">&para;</a></h1>
+<p>The Product Owner assembles and watches metrics.</p>
+<p>Over time, this means exporting system metrics to a Health-Status Dashboard
+and/or a TimeSeries Database.</p>
+<p>In the near term, users will be able to browse the list of repos, issues and
+contracts.</p>
+<p><img alt="contracts" src="../../img/_ContractList.png" /></p>
                 
                   
                 
@@ -486,9 +487,9 @@
                   <div id="disqus_thread"></div>
 <script>
   var disqus_config = function () {
-    this.page.url = "https://mvscorg.github.io/mozdm-design/ref/cve_attributes/";
+    this.page.url = "https://mvscorg.github.io/mozdm-design/cases/product_owner/";
     this.page.identifier =
-      "/ref/cve_attributes/";
+      "/cases/product_owner/";
   };
   (function() {
     var d = document, s = d.createElement("script");
@@ -510,7 +511,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../implementation/" title="Implementation" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../all_roles/" title="All Roles" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -519,19 +520,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Implementation
+                All Roles
               </span>
             </div>
           </a>
         
         
-          <a href="../github_api/" title="GitHub API" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../product_manager/" title="Product Manager" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                GitHub API
+                Product Manager
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
