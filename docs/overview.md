@@ -21,17 +21,17 @@ The system supports two types of contracts:
 
 ## Repos 
 
-Initially, we will support github issues.
+Initially, we will support GitHub issues.
 
 ### Types
 
-A collection of *Repo Types* are hard coded into the system.
+The *Repo Types* are hard coded into the system.
 
 | REPO TYPE | SUPPORTED CONTRACT TYPES |
 |-----------|--------------------------|
-| GitHub    | BOUNTY, FORECAST       |
-| BugZilla  | BOUNTY, FORECAST       |
-| CVE       | FORECAST               |
+| GitHub    | BOUNTY, FORECAST         |
+| BugZilla  | BOUNTY, FORECAST         |
+| CVE       | FORECAST                 |
 
 ### Characteristics
 
@@ -69,5 +69,4 @@ oracle.
 
 - are the CONTRACT TYPES correct - are there only two??
 - what is the best vocabulary to use?
-- what is the right language to describe the CONTRACT TYPES??
 - what happens if params change during the contract period?

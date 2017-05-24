@@ -14,20 +14,24 @@ extra:
       link: 'https://github.com/mvscorg/mozdm-design'
 markdown_extensions:
   - admonition
+  - footnotes
   - toc(permalink=true)
 pages:
   - Home:             index.md
   - Overview:         overview.md
   - Actors:           actors.md
-  - Usage Scenarios:  scenarios.md
   - Use Cases:   
     - Overview:            use_cases.md
     - All Roles:           cases/all_roles.md
+    - Product Owner:       cases/product_owner.md
     - Product Manager:     cases/product_manager.md
-  - Software Objects: objects.md
+    - Developer:           cases/developer.md
+    - Publisher:           cases/publisher.md
+    - Counterparty:        cases/counterparty.md
+  - Software Objects:    objects.md
   - Process Interaction: process.md
-  - Incentives:       incentive.md
-  - Dapps:            dapp.md
+  - Incentives DSL:      incentive.md
+  - Implementation:      implementation.md
   - Reference:
     - CVE Attributes: ref/cve_attributes.md
     - GitHub API:     ref/github_api.md

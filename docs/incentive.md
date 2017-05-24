@@ -1,10 +1,8 @@
-# Incentives
+# Incentives DSL
 
-## Overview
+We intend to have a configurable DSL for Incentives.
 
-Content TBD
+Possible configurable parameters for this DSL include:
 
-## Screen Shots
-
-Content TBD
+- **payout period** - Net0, Net30...
 
