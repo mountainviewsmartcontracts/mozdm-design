@@ -1,22 +1,12 @@
 # Product Owner
 
-The Product Owner is a representative of Mozilla or a Mozilla Industry Partner.
+The Product Owner assembles and watches metrics.
 
-The Payout DSL is defined [here](/incentive).
+Over time, this means exporting system metrics to a Health-Status Dashboard
+and/or a TimeSeries Database.
 
-## Create Payout Algorithm
+In the near term, users will be able to browse the list of repos, issues and
+contracts.
 
-TBD
-
-## Backtest Payout
-
-TBD
-
-## Publish Payout
-
-TBD
-
-## Retire Payout
-
-TBD
+![contracts](/img/_ContractList.png)
 

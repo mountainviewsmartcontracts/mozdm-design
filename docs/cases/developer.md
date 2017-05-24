@@ -1,22 +1,6 @@
 # Developer 
 
-## Create an Account
+## Browse Issues
 
-TBD
-
-## Create Payout
-
-TBD
-
-## Backtest Payout
-
-TBD
-
-## Publish Payout
-
-TBD
-
-## Retire Payout
-
-TBD
+![browse](/img/_IssueList.png)
 

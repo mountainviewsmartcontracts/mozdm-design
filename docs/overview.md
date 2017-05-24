@@ -21,11 +21,9 @@ The system supports two types of contracts:
 
 ## Repos 
 
-Initially, we will support GitHub issues.
-
 ### Types
 
-The *Repo Types* are hard coded into the system.
+*Repo Types* are hard coded into the system.
 
 | REPO TYPE | SUPPORTED CONTRACT TYPES |
 |-----------|--------------------------|
