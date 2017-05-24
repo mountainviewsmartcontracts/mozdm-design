@@ -2,14 +2,7 @@
 
 We do a lot of online collaboration and remote meetings!
 
-## Resources
-
-| Resource        | Description                 |
-|-----------------|-----------------------------|
-| Malvika's Paper | Deep Fixes Payout Algorithm |
-| Bugzilla        | Mozilla Bug Database        |
-
-## Tools
+## Communication Tools
 
 | Function                     | Tool          |
 |------------------------------|---------------|
@@ -21,4 +14,11 @@ We do a lot of online collaboration and remote meetings!
 [discord]: https://discord.gg/hrCTCRy
 [list]:    https://groups.google.com/forum/#!forum/moz_xdmarket
 [tmate]:   http://tmate.io
+
+## Resources
+
+| Resource        | Description                 |
+|-----------------|-----------------------------|
+| Malvika's Paper | Deep Fixes Payout Algorithm |
+| Bugzilla        | Mozilla Bug Database        |
 
