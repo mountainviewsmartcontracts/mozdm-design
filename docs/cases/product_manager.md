@@ -1,22 +1,34 @@
 # Product Manager
 
-## Create an Account
+## Publishing Payout Terms
 
-TBD
+The Payout DSL is defined [here](/incentive).
 
-## Create Payout
+Use Cases include:
 
-TBD
+- Create Payout Algorithm
+- Backtest Payout
+- Publish Payout
+- Retire Payout
 
-## Backtest Payout
+Publishing payment terms might be restricted - Mozilla or a Mozilla Industry
+Partner.
 
-TBD
+## Repo Management
 
-## Publish Payout
+Note: anybody can browse/add/view any repo.
 
-TBD
+### Browsing the Repo List
 
-## Retire Payout
+![browse](/img/_RepoList.png)
 
-TBD
+### Adding a Repo
+
+![add](/img/_RepoAdd.png)
+
+### Showing Repo Details
+
+![add](/img/_RepoDetails.png)
+
+1) Only show the delete button if there are no open contracts.  Auto-delete a repo if there have been no open contracts for 30 days.
 
