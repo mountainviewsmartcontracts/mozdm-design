@@ -347,7 +347,7 @@
         }, 
         {
             "location": "/meta/collaboration/", 
-            "text": "Collaboration\n\n\nWe do a lot of online collaboration and remote meetings!\n\n\nResources\n\n\n\n\n\n\n\n\nResource\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nMalvika's Paper\n\n\nDeep Fixes Payout Algorithm\n\n\n\n\n\n\nBugzilla\n\n\nMozilla Bug Database\n\n\n\n\n\n\n\n\nTools\n\n\n\n\n\n\n\n\nFunction\n\n\nTool\n\n\n\n\n\n\n\n\n\n\nmailing list\n\n\nGoogle Groups\n\n\n\n\n\n\nvoice / text chat\n\n\nDiscord\n\n\n\n\n\n\nterminal sharing\n\n\nTmate\n\n\n\n\n\n\nbrowser sharing\n\n\nTBD", 
+            "text": "Collaboration\n\n\nWe do a lot of online collaboration and remote meetings!\n\n\nCommunication Tools\n\n\n\n\n\n\n\n\nFunction\n\n\nTool\n\n\n\n\n\n\n\n\n\n\nmailing list\n\n\nGoogle Groups\n\n\n\n\n\n\nvoice / text chat\n\n\nDiscord\n\n\n\n\n\n\nterminal sharing\n\n\nTmate\n\n\n\n\n\n\nbrowser sharing\n\n\nTBD\n\n\n\n\n\n\n\n\nResources\n\n\n\n\n\n\n\n\nResource\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nMalvika's Paper\n\n\nDeep Fixes Payout Algorithm\n\n\n\n\n\n\nBugzilla\n\n\nMozilla Bug Database", 
             "title": "Collaboration"
         }, 
         {
@@ -356,14 +356,14 @@
             "title": "Collaboration"
         }, 
         {
+            "location": "/meta/collaboration/#communication-tools", 
+            "text": "Function  Tool      mailing list  Google Groups    voice / text chat  Discord    terminal sharing  Tmate    browser sharing  TBD", 
+            "title": "Communication Tools"
+        }, 
+        {
             "location": "/meta/collaboration/#resources", 
             "text": "Resource  Description      Malvika's Paper  Deep Fixes Payout Algorithm    Bugzilla  Mozilla Bug Database", 
             "title": "Resources"
-        }, 
-        {
-            "location": "/meta/collaboration/#tools", 
-            "text": "Function  Tool      mailing list  Google Groups    voice / text chat  Discord    terminal sharing  Tmate    browser sharing  TBD", 
-            "title": "Tools"
         }, 
         {
             "location": "/meta/ipfs/", 
