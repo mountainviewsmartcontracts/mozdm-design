@@ -1,18 +1,7 @@
 # Publisher
 
-## Create Payout
+## Create a Contract
 
-TBD
+![Make Contract](/img/_make_predictions.png)
 
-## Backtest Payout
-
-TBD
-
-## Publish Payout
-
-TBD
-
-## Retire Payout
-
-TBD
 

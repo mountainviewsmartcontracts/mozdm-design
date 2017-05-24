@@ -2,9 +2,5 @@
 
 ## Browse Issues
 
-TBD
-
-## Search for Issues
-
-TBD
+![browse](/img/_IssueList.png)
 
