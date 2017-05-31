@@ -1,6 +1,6 @@
 # CounterParty
 
-## Take a Contract
+## Take a Contract (version 0)
 
 ![Make a Bet](/img/_make_bets.png)
 
