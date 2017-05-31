@@ -197,7 +197,7 @@
         }, 
         {
             "location": "/cases/publisher/", 
-            "text": "Publisher\n\n\nCreate a Contract", 
+            "text": "Publisher\n\n\nCreate a Contract (version 0)\n\n\n\n\nCreate a Bounty (version 1)\n\n\n\n\nCreate a Forecast (version 1)", 
             "title": "Publisher"
         }, 
         {
@@ -206,13 +206,23 @@
             "title": "Publisher"
         }, 
         {
-            "location": "/cases/publisher/#create-a-contract", 
+            "location": "/cases/publisher/#create-a-contract-version-0", 
             "text": "", 
-            "title": "Create a Contract"
+            "title": "Create a Contract (version 0)"
+        }, 
+        {
+            "location": "/cases/publisher/#create-a-bounty-version-1", 
+            "text": "", 
+            "title": "Create a Bounty (version 1)"
+        }, 
+        {
+            "location": "/cases/publisher/#create-a-forecast-version-1", 
+            "text": "", 
+            "title": "Create a Forecast (version 1)"
         }, 
         {
             "location": "/cases/counterparty/", 
-            "text": "CounterParty\n\n\nTake a Contract\n\n\n\n\nYou can set whatever amount you want as a PUBLISHER.  As the COUNTERPARTY you\ncan only take a portion (up to 100%) of the contract. We have discussed making\nthis all or nothing for the counterparty.", 
+            "text": "CounterParty\n\n\nTake a Contract (version 0)\n\n\n\n\nYou can set whatever amount you want as a PUBLISHER.  As the COUNTERPARTY you\ncan only take a portion (up to 100%) of the contract. We have discussed making\nthis all or nothing for the counterparty.", 
             "title": "Counterparty"
         }, 
         {
@@ -221,9 +231,9 @@
             "title": "CounterParty"
         }, 
         {
-            "location": "/cases/counterparty/#take-a-contract", 
+            "location": "/cases/counterparty/#take-a-contract-version-0", 
             "text": "You can set whatever amount you want as a PUBLISHER.  As the COUNTERPARTY you\ncan only take a portion (up to 100%) of the contract. We have discussed making\nthis all or nothing for the counterparty.", 
-            "title": "Take a Contract"
+            "title": "Take a Contract (version 0)"
         }, 
         {
             "location": "/objects/", 
