@@ -1,6 +1,6 @@
 # XDMarket Design
 
-XDMarket is a Mozilla project to explore the use of Blockchain, Incentive
+XDMarket is a project to explore the use of Blockchain, Incentive
 Algorithms and Prediction Markets as tooling for Community Managed Software.  
 
 This site has use-cases and wireframes for areas where we want to
