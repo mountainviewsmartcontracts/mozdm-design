@@ -1,4 +1,4 @@
-# System Overview
+# Elements
 
 ![Entities](/img/__Overview.png)
 
@@ -6,9 +6,9 @@
 
 ### Types
 
-The system supports two types of contracts:
+Issue Market trades two types of contracts:
 
-- a **Bounty** <br/>
+- a **Reward** <br/>
   eg `I will pay $X if Issue $Y is resolved before $Date`
 
 - a **Forecast** <br/>
@@ -63,8 +63,3 @@ oracle.
 - **BUGZILLA** - match against issue metadata
 - **GitHub** - match against issue labels
 
-## Questions
-
-- are the CONTRACT TYPES correct - are there only two??
-- what is the best vocabulary to use?
-- what happens if params change during the contract period?

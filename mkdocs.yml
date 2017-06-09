@@ -1,6 +1,6 @@
-site_name:        'XDMarket'
+site_name:        'Isssue Market'
 site_author:      'MVSC'
-site_description: 'XDMarket Project Documentation'
+site_description: 'Issue Market Project Documentation'
 site_url:         'https://mvscorg.github.io/mozdm-design'
 site_favicon:     'img/favicon.gif'
 theme_dir:        '_theme/material'
@@ -17,24 +17,25 @@ markdown_extensions:
   - footnotes
   - toc(permalink=true)
 pages:
-  - Home:             index.md
-  - Overview:         overview.md
-  - Actors:           actors.md
+  - Introduction: index.md
+  - Overview:
+    - Elements:         home/elements.md
+    - Actors:           home/actors.md
   - Use Cases:   
-    - Overview:            use_cases.md
     - All Roles:           cases/all_roles.md
     - Product Owner:       cases/product_owner.md
     - Product Manager:     cases/product_manager.md
     - Developer:           cases/developer.md
     - Publisher:           cases/publisher.md
     - Counterparty:        cases/counterparty.md
-  - Software Objects:    objects.md
-  - Process Interaction: process.md
-  - Incentives DSL:      incentive.md
-  - Implementation:      implementation.md
   - Reference:
     - CVE Attributes: ref/cve_attributes.md
     - GitHub API:     ref/github_api.md
   - Meta:
     - Collaboration:    meta/collaboration.md
     - IPFS:             meta/ipfs.md
+  - Under Construction:
+    - Software Objects:    tbd/objects.md
+    - Process Interaction: tbd/process.md
+    - Incentives DSL:      tbd/incentive.md
+    - Implementation:      tbd/implementation.md
