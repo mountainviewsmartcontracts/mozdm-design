@@ -1,4 +1,10 @@
-# Use Cases
+# Actors
+
+## Contract Participants
+
+![Groups](/img/__ActorContracts.png)
+
+## Actors
 
 | Actor                 | Org     | Overview                            |
 |-----------------------|---------|-------------------------------------|
@@ -13,3 +19,8 @@
 [de]: /cases/developer
 [pu]: /cases/publisher
 [co]: /cases/counterparty
+
+## Organizations
+
+![Groups](/img/__ActorOrgs.png)
+
