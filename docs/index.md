@@ -1,14 +1,14 @@
-# XDMarket Design
+# Issue Market Design
 
-XDMarket is a project to explore the use of Blockchain, Incentive
+Issue Market is a MVSC project to explore the use of Blockchain, Incentive
 Algorithms and Prediction Markets as tooling for Community Managed Software.  
 
 This site has use-cases and wireframes for areas where we want to
 examine & discuss design ideas.
 
-## About XDMarket
+## About Issue Market
 
-See the [XDMarket Intro Slides][deck] for background info.
+See the [Issue Market Intro Slides][deck] for background info.
 
 ## About this Documentation
 
