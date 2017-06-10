@@ -1,7 +1,8 @@
-# Issue Market Design
+# MVSC Issue Market
 
-Issue Market is a MVSC project to explore the use of Blockchain, Incentive
-Algorithms and Prediction Markets as tooling for Community Managed Software.  
+Issue Market is a Mountain View Smart Contracts (MVSC) project to explore the
+use of Blockchain, Incentive Algorithms and Prediction Markets as tooling for
+Community Managed Software.  
 
 This site has use-cases and wireframes for areas where we want to
 examine & discuss design ideas.

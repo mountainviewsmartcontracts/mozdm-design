@@ -1,23 +1,28 @@
 # Elements
 
-![Entities](/img/__Overview.png)
-
 ## Contracts
 
-### Types
+Issue Market trades **Reward Contacts** and a **Forecast Contracts**.
 
-Issue Market trades two types of contracts:
+### Forecast Contract
 
-- a **Reward** <br/>
-  eg `I will pay $X if Issue $Y is resolved before $Date`
+`"I will pay $X if an Issue matching ${METADATA} exists before $DATE"`
 
-- a **Forecast** <br/>
-  eg `I will pay $X if an Issue with ${MATCH PARAMS} is opened before $DATE`
+![Entities](/img/__OverviewForecast.png)
+                                                    
+### Reward Contact
 
-### Payout Algorithm
+`"I will pay $X if Issue $Y is resolved before $Date"`
 
-- We will create a DSL for pluggable payout algorithms
-- Each contract is associated with one (and only one) payout algorithm
+![Entities](/img/__OverviewReward.png)
+
+### Contract Attributes
+
+| ATTRIBUTE        | DESCRIPTION                               |
+|------------------|-------------------------------------------|
+| Premium          | Adjustable risk premium                   |
+| Metadata         | Labels and Fields used for issue matching |
+| Payout Algorithm | DSL for pluggable payout algorithm        |
 
 ## Repos 
 
@@ -27,19 +32,19 @@ Issue Market trades two types of contracts:
 
 | REPO TYPE | SUPPORTED CONTRACT TYPES |
 |-----------|--------------------------|
-| GitHub    | BOUNTY, FORECAST         |
-| BugZilla  | BOUNTY, FORECAST         |
+| GitHub    | REWARD, FORECAST         |
+| BugZilla  | REWARD, FORECAST         |
 | CVE       | FORECAST                 |
 
 ### Characteristics
 
-- Some repos are hard-coded in the system (BugZilla/Firefox,
+- Some repos are hard-coded in the system (eg BugZilla/Firefox,
   BugZilla/Thunderbird, CVE)
-- Some repos are added dynamically by users (GitHub/Repo1, GitHub/Repo2, ...)
+- Some repos are added dynamically by users (eg GitHub/Repo1, GitHub/Repo2, ...)
 
 ## Issues
 
-### Attributes
+### Issue Metadata
 
 Note: For each issue we can programatically extract:
 
@@ -59,7 +64,7 @@ oracle.
 
 ### Match Params
 
-- **CVE** - match against issue metadata
-- **BUGZILLA** - match against issue metadata
-- **GitHub** - match against issue labels
+- **CVE** - match against hardcoded metadata fields
+- **BUGZILLA** - match against hardcoded metadata fields
+- **GitHub** - match against dynamic labels
 
