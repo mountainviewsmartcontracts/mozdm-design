@@ -2,9 +2,17 @@
 
 ## About this Project
 
-The goal of the project is to produce an open source platform that can be used to conduct research into the use of Incentive Algorithms and Prediction Markets as tooling for Community Managed Software.  
+The goal of the project is to produce an open source market platform that can be used to conduct research into the use of Incentive Algorithms and Prediction Markets as tooling for Community Managed Software.  
 
-Our thesis is that if we develop a marketplace around software issues, allowing both Rewards and Predictions to be made, and allowing pluggable Reward Algorithms to be implemented, then researchers will be able to build and run tests of their Reward Algorithms in the real world, rapidly iterating.  We believe this will ultimately speed research into the use of marketplace incentives to improve outcomes for Community Managed Software.
+The key characteristics of the market platform are:
+
+* Decentralized - implemented as an Ethereum Dapp.
+* Extensible - incentives can be modified and experimented with. 
+* Unobtrusive - no changes should be required to existing project management systems (issue trackers, etc.), owners/managers of projects may participate as much or as little as desired.
+
+Our thesis is that if we develop a marketplace around software issues, allowing both Rewards and Predictions to be made, and allowing pluggable Reward Algorithms to be implemented, then researchers will be able to build and run tests of their Reward Algorithms in the real world, rapidly iterating.
+
+Our goals are to speed research into the use of marketplace incentives to improve outcomes for Community Managed Software, and to make the platform useful in it's own right.
 
 We have a slide deck that provides a slightly longer intro: [Issue Market Intro Slides][deck] 
 
