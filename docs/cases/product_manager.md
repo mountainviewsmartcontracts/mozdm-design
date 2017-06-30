@@ -11,8 +11,7 @@ Use Cases include:
 - Publish Payout
 - Retire Payout
 
-Publishing payment terms might be restricted - Mozilla or a Mozilla Industry
-Partner.
+Publishing payment terms might be restricted - Product owner or Industry Partner.
 
 ## Repo Management
 

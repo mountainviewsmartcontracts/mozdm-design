@@ -20,5 +20,5 @@ We do a lot of online collaboration and remote meetings!
 | Resource        | Description                 |
 |-----------------|-----------------------------|
 | Malvika's Paper | Deep Fixes Payout Algorithm |
-| Bugzilla        | Mozilla Bug Database        |
+| Bugzilla        | Bug Database                |
 

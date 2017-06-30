@@ -8,7 +8,7 @@
 
 | Actor                 | Org     | Overview                            |
 |-----------------------|---------|-------------------------------------|
-| [Product Owner][po]   | Mozilla | Assembles and Watches Metrics       |
+| [Product Owner][po]   | Owner   | Assembles and Watches Metrics       |
 | [Product Manager][pm] | Any     | Manages Payout Algorithms           |
 | [Developer][de]       | Any     | Watches Market, Fixes Bugs          |
 | [Publisher][pu]       | Any     | Configures/Publishes a new contract |
