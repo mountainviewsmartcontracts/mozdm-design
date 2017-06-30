@@ -12,7 +12,7 @@ Attributes:
  * Email (optional - for notifications)
  * Ethereum account public key
 
-### Bounty
+### Reward
 
 Attributes:
 
@@ -20,14 +20,14 @@ Attributes:
  * Issue Number
  * Date
 
-### Bounty Publisher
+### Reward Publisher
 
 Attributes:
 
  * Public key
  * Amount
 
-### Bounty Counterparty
+### Reward Counterparty
 
 Attributes:
 

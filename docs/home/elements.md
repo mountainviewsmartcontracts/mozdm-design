@@ -27,8 +27,8 @@ Issue Market trades two types of contracts:
 
 | REPO TYPE | SUPPORTED CONTRACT TYPES |
 |-----------|--------------------------|
-| GitHub    | BOUNTY, FORECAST         |
-| BugZilla  | BOUNTY, FORECAST         |
+| GitHub    | REWARD, FORECAST         |
+| BugZilla  | REWARD, FORECAST         |
 | CVE       | FORECAST                 |
 
 ### Characteristics
