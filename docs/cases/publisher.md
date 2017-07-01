@@ -4,9 +4,9 @@
 
 ![Make Contract](/img/_make_predictions.png)
 
-## Create a Bounty (version 1)
+## Create a Reward (version 1)
 
-![Publish Bounty](/img/_PublishBounty.png)
+![Publish Reward](/img/_PublishReward.png)
 
 ## Create a Forecast (version 1)
 

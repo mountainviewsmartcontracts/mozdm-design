@@ -1,10 +1,14 @@
 # Product Manager
 
-## Publishing Payout Terms
+## Adjusting the Reward Algorithm
 
-The Payout DSL is defined [here](/incentive).
+A reward algorithm kicks in when an market contract has been resolved.
 
-Use Cases include:
+Typically, contract resolution results in some payment being made. That payment could be made immediately, or in installments, or based on other conditions being met, such as code quality being verified, or other metrics.  
+
+The Payout DSL is TBD.
+
+Use Cases:
 
 - Create Payout Algorithm
 - Backtest Payout
