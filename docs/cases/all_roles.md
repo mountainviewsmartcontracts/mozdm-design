@@ -30,3 +30,8 @@ sign up or log in.
 SignIn is necessary for publishing or accepting contracts.  (what is the right
 vocabulary here?)
 
+## Publisher/Counterparty
+
+Any logged in user can publish a contract or take the other side of a contract as a counterparty. 
+
+See the publisher/counterparty roles for mocks.

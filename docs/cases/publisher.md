@@ -1,14 +1,12 @@
 # Publisher
 
-## Create a Contract (version 0)
+Anyone can publish a contract.  A developer, product manager, product owner, or anyone else.
 
-![Make Contract](/img/_make_predictions.png)
-
-## Create a Reward (version 1)
+## Create a Reward
 
 ![Publish Reward](/img/_PublishReward.png)
 
-## Create a Forecast (version 1)
+## Create a Forecast
 
 ![Publish Forecast](/img/_PublishForecast.png)
 

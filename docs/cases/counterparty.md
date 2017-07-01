@@ -1,5 +1,7 @@
 # CounterParty
 
+Anyone can take the other side of a contract.
+
 ## Take a Contract (version 0)
 
 ![Make a Bet](/img/_make_bets.png)
