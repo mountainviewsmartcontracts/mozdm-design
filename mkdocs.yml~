@@ -1,0 +1,42 @@
+site_name:        'Issue Market'
+site_author:      'MVSC'
+site_description: 'Issue Market Project Documentation'
+site_url:         'https://mvscorg.github.io/mozdm-design'
+site_favicon:     'img/favicon.gif'
+theme_dir:        '_theme/material'
+copyright:        'Copyright &copy; 2017 Mountain View Smart Contracts'
+extra:
+  disqus: 'xdm-docs'
+  palette:
+    primary: 'green'
+  social:
+    - type: 'github'
+      link: 'https://github.com/mvscorg/mozdm-design'
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc(permalink=true)
+pages:
+  - Introduction: index.md
+  - Overview:
+    - High Level Design home/highlevel.md
+    - Elements:         home/elements.md
+    - Actors:           home/actors.md
+  - Use Cases:   
+    - All Roles:           cases/all_roles.md
+    - Product Owner:       cases/product_owner.md
+    - Product Manager:     cases/product_manager.md
+    - Developer:           cases/developer.md
+    - Publisher:           cases/publisher.md
+    - Counterparty:        cases/counterparty.md
+  - Reference:
+    - CVE Attributes: ref/cve_attributes.md
+    - GitHub API:     ref/github_api.md
+  - Meta:
+    - Collaboration:    meta/collaboration.md
+    - IPFS:             meta/ipfs.md
+  - Under Construction:
+    - Software Objects:    tbd/objects.md
+    - Process Interaction: tbd/process.md
+    - Incentives DSL:      tbd/incentive.md
+    - Implementation:      tbd/implementation.md

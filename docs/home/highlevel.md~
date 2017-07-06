@@ -1,0 +1,32 @@
+
+# Design Overview
+
+The design of this market should be straighforward to developers of decentralized applications.
+
+We are building a marketplace around software issues.  Those issues are found in repositories. 
+
+So we need some way to grab issues from repos and bring them into the marketplace.  That thing is called an "oracle", and it needs to be configured by someone we're calling a Product Manager to grab details about issues, present them to the marketplace, and periodically update the status of those issues so that the market can determine what 
+
+that allows users to post rewards and provide intelligence to 
+
+# High Level Processes Interaction Diagram
+
+*Users* interact with the marketplace Dapp through any web3 browser (i.e. firefox or chrome with metamask installed, status.im, etc.).  This is how they access the web3 apps to make predictions and interact with the other market players.
+
+The *Oracle* is effectively a cron job that interacts with issue trackers and with the marketplace Dapp - it periodically feeds data on changes in issues to the market.
+
+The *Dapp* has a web interface that loads data from the ethereum blockchain.  The *Dapp* contains at least two smart contracts.
+
+The *Market* smart contract interacts with users through the web3 UI, and checks the blockchain for data on the currrent status of predictions and bugs when the page is loaded.
+
+The *Reward Algorithm* smart contract is fed data about current bug statuses, and calculates payouts for users of the system.  We will probably use solidity events to drive this.
+
+Future stuff not shown: Scoring Algos, Bots.
+
+![Entities](/img/ProcessInteraction.png)
+
+[docs]: https://github.com/mvscorg/mozdm-design
+[web2]: https://github.com/mvscorg/mvscim
+[web3]: https://github.com/mvscorg/xdmarket
+
+
