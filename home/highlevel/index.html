@@ -9,7 +9,7 @@
         <meta name="description" content="Issue Market Project Documentation">
       
       
-        <link rel="canonical" href="https://mvscorg.github.io/mozdm-design/tbd/process/">
+        <link rel="canonical" href="https://mvscorg.github.io/mozdm-design/home/highlevel/">
       
       
         <meta name="author" content="MVSC">
@@ -21,7 +21,7 @@
     
     
       
-        <title>Process Interaction - Issue Market</title>
+        <title>Design - Issue Market</title>
       
     
     
@@ -80,11 +80,11 @@
             
               
                 <span class="md-header-nav__parent">
-                  Under Construction
+                  Overview
                 </span>
               
             
-            Process Interaction
+            Design
           
         </span>
       </div>
@@ -159,10 +159,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Overview
@@ -178,9 +180,30 @@
           
           
 
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="./" title="Design" class="md-nav__link md-nav__link--active">
+      Design
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
 
   <li class="md-nav__item">
-    <a href="../../home/elements/" title="Elements" class="md-nav__link">
+    <a href="../elements/" title="Elements" class="md-nav__link">
       Elements
     </a>
   </li>
@@ -192,7 +215,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../home/actors/" title="Actors" class="md-nav__link">
+    <a href="../actors/" title="Actors" class="md-nav__link">
       Actors
     </a>
   </li>
@@ -399,12 +422,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
     <label class="md-nav__link" for="nav-6">
       Under Construction
@@ -422,40 +443,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../objects/" title="Software Objects" class="md-nav__link">
-      Software Objects
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-    <a href="./" title="Process Interaction" class="md-nav__link md-nav__link--active">
-      Process Interaction
-    </a>
-    
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../incentive/" title="Incentives DSL" class="md-nav__link">
+    <a href="../../tbd/incentive/" title="Incentives DSL" class="md-nav__link">
       Incentives DSL
     </a>
   </li>
@@ -467,7 +455,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../implementation/" title="Implementation" class="md-nav__link">
+    <a href="../../tbd/implementation/" title="Implementation" class="md-nav__link">
       Implementation
     </a>
   </li>
@@ -506,12 +494,22 @@
               
                 
                 
-                <h1 id="process-interaction">Process interaction<a class="headerlink" href="#process-interaction" title="Permanent link">&para;</a></h1>
-<p><em>Users</em> interact with the marked Dapp through firefox or another browse with the metamask plugin installed.  This is how they make predictions, or take a side of a prediction.</p>
-<p>The <em>Oracle</em> is a cron job that interacts with issue trackers and feeds data on to the blockchain periodically to two smart contracts.</p>
-<p>The <em>Dapp</em> has a web interface that loads data from the ethereum blockchain.  The <em>Dapp</em> also has two smart contracts.</p>
-<p>The <em>Market</em> smart contract interacts with users through the web3 UI, and checks the blockchain for data on the currrent status of predictions and bugs when the page is loaded.</p>
-<p>The <em>Reward Algorithm</em> smart contract is fed data by the Oracle about current bug statuses, and calculates payouts for users of the system.</p>
+                <h1 id="design-overview">Design Overview<a class="headerlink" href="#design-overview" title="Permanent link">&para;</a></h1>
+<p>The design of this market should be straighforward to developers of decentralized applications (Dapps).</p>
+<p>There are three inputs to the market:</p>
+<p>1) We are building a marketplace Dapp around software issues.  Those issues are found in repositories. </p>
+<p>So we need some way to grab issues from repos and bring them into the marketplace.  That thing is called an "oracle", and it needs to be configured by someone we're calling a Product Manager to grab details about issues, present them to the marketplace, and periodically update the status of those issues.  </p>
+<p>2) Users provide input to the market by making predictions and providing rewards.  This is 100% through the Dapp, and that info never reaches another system.  Users can put currency into escrow using the Dapp to incentivize others to participate by taking the other side of their contract and fixing issues or predicting new issues.</p>
+<p>3) Researchers can implement algorithms (for Scoring and Payout at first) using solidity (requires contract upgrade) or our DSLs (we have to write them first) directly in the Dapp.  Their results should ultimately be viewable through a dashboard.</p>
+<p>There are other possibilities for this - Arbitrage, etc.  But lets start with those inputs first.</p>
+<h1 id="high-level-processes-interaction-diagram">High Level Processes Interaction Diagram<a class="headerlink" href="#high-level-processes-interaction-diagram" title="Permanent link">&para;</a></h1>
+<p>So, to summarize all the players in this process:</p>
+<p><em>Users</em> interact with the marketplace Dapp through any web3 browser (i.e. firefox or chrome with metamask installed, status.im, etc.).  This is how they access the web3 apps to make predictions and interact with the other market players.</p>
+<p>The <em>Oracle</em> is effectively a configurable cron job that interacts with issue trackers and with the marketplace Dapp - it periodically feeds data on changes in issues to the market.</p>
+<p>The <em>Dapp</em> has a web interface that loads data from the ethereum blockchain.  The <em>Dapp</em> contains at least two smart contracts (the market and the default reward algo)..</p>
+<p>The <em>Market</em> smart contract interacts with users through the web3 UI, and checks the blockchain for data on the currrent status of predictions and bugs when the page is loaded by a user.</p>
+<p>The <em>Reward Algorithm</em> smart contract is fed data about current bug statuses, and calculates payouts for users of the system.  We will probably use solidity events to drive this, but it could be done with the Oracle in some designs.</p>
+<p>Future stuff not shown: Scoring Algos, Bots.</p>
 <p><img alt="Entities" src="../../img/ProcessInteraction.png" /></p>
                 
                   
@@ -523,9 +521,9 @@
                   <div id="disqus_thread"></div>
 <script>
   var disqus_config = function () {
-    this.page.url = "https://mvscorg.github.io/mozdm-design/tbd/process/";
+    this.page.url = "https://mvscorg.github.io/mozdm-design/home/highlevel/";
     this.page.identifier =
-      "/tbd/process/";
+      "/home/highlevel/";
   };
   (function() {
     var d = document, s = d.createElement("script");
@@ -547,7 +545,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../objects/" title="Software Objects" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../.." title="Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -556,19 +554,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Software Objects
+                Introduction
               </span>
             </div>
           </a>
         
         
-          <a href="../incentive/" title="Incentives DSL" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../elements/" title="Elements" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Incentives DSL
+                Elements
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
