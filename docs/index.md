@@ -4,15 +4,21 @@
 
 We intend to build an open source market platform to conduct research into the use of Incentive Algorithms and Prediction Markets as tooling for Community Managed Software.  
 
-Our thesis is that if we develop a marketplace around software issues, allowing both Rewards and Predictions to be made, and allowing pluggable Reward Algorithms to be implemented, then researchers will be able to build and run tests of their Reward Algorithms in the real world, rapidly iterating.
+Our thesis is that if we develop a marketplace around software issues, allowing both Rewards and Predictions to be made, and making it easy to implement  Reward and Payout Algorithms, then researchers will be able to build and run tests of algorithms in the real world, rapidly iterating.  
 
-Our goals are to speed research into the use of marketplace incentives to improve outcomes for Community Managed Software, and to make the platform useful in it's own right.
+Our goals are to speed research into the use of marketplace incentives to improve outcomes for Community Managed Software, and to make this platform useful in it's own right.
 
-Some characteristics of the market platform:
+Desired characteristics of the Issue Market platform:
 
 * Decentralized - implemented as an Ethereum Dapp.
-* Extensible - incentives can be modified and experimented with. 
+* Extensible by Researchers - incentives can be modified and experimented with - easily!
+* Straightforward for Developers - to the extent possible, we'll use garden variety tech and write full test suites.
 * Unobtrusive - no changes should be required to existing project management systems (issue trackers, etc.), owners/managers of projects may participate as much or as little as desired.
+
+Forward looking features we will prepare for in later iterations:
+
+* Example trading bots with Clear APIs
+* Tokenized, tradable contracts for each market agreement.
 
 We have a slide deck that provides a slightly longer intro: [Issue Market Intro Slides][deck] 
 
