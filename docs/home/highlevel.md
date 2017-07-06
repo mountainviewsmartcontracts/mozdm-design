@@ -33,8 +33,5 @@ Future stuff not shown: Scoring Algos, Bots.
 
 ![Entities](/img/ProcessInteraction.png)
 
-[docs]: https://github.com/mvscorg/mozdm-design
-[web2]: https://github.com/mvscorg/mvscim
-[web3]: https://github.com/mvscorg/xdmarket
 
 

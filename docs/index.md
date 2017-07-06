@@ -7,6 +7,7 @@ Ever wish you could change the way people think about fixing bugs and writing fe
 What we are building is an open-source market platform to conduct research into the use of Incentive Algorithms and Prediction Markets as tooling for Community Managed Software.  
 
 Our thesis is that if we develop a marketplace around software issues (bugs, features, etc.), allowing both Rewards and Predictions to be made, and making it easy to implement Scoring and Payout Algorithms, then researchers will be able to build and run tests of algorithms in the real world, rapidly iterating.  
+
 Our goals are to speed research into the use of marketplace incentives to improve outcomes for Community Managed Software, *and* to make this platform useful in it's own right.
 
 Desired characteristics of the Issue Market platform:
@@ -59,3 +60,6 @@ View the generated documentation via [HTTP][http] or [IPFS](meta/ipfs).
 [bal]:  https://balsamiq.com/
 [mkd]:  http://www.mkdocs.org/
 [don]:  https://blog.zgp.org/transactions-from-a-future-software-market/
+[docs]: https://github.com/mvscorg/mozdm-design
+[web2]: https://github.com/mvscorg/mvscim
+[web3]: https://github.com/mvscorg/xdmarket
