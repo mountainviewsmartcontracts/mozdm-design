@@ -2,11 +2,12 @@
 
 ## About this Project
 
-We intend to build an open source market platform to conduct research into the use of Incentive Algorithms and Prediction Markets as tooling for Community Managed Software.  
+Ever wish you could change the way people think about fixing bugs and writing features?  Maybe you have a great algorithm that you would like to try.  Or maybe you want to pseudononymously provide some intelligence to software developers, and make money doing it?  Maybe you would like to pitch in to incentivize developers to find the root cause of a bug, not just the superficial bugs.  This project is being built for you.
 
-Our thesis is that if we develop a marketplace around software issues, allowing both Rewards and Predictions to be made, and making it easy to implement  Reward and Payout Algorithms, then researchers will be able to build and run tests of algorithms in the real world, rapidly iterating.  
+What we are building is an open-source market platform to conduct research into the use of Incentive Algorithms and Prediction Markets as tooling for Community Managed Software.  
 
-Our goals are to speed research into the use of marketplace incentives to improve outcomes for Community Managed Software, and to make this platform useful in it's own right.
+Our thesis is that if we develop a marketplace around software issues (bugs, features, etc.), allowing both Rewards and Predictions to be made, and making it easy to implement Scoring and Payout Algorithms, then researchers will be able to build and run tests of algorithms in the real world, rapidly iterating.  
+Our goals are to speed research into the use of marketplace incentives to improve outcomes for Community Managed Software, *and* to make this platform useful in it's own right.
 
 Desired characteristics of the Issue Market platform:
 
@@ -14,13 +15,33 @@ Desired characteristics of the Issue Market platform:
 * Extensible by Researchers - incentives can be modified and experimented with - easily!
 * Straightforward for Developers - to the extent possible, we'll use garden variety tech and write full test suites.
 * Unobtrusive - no changes should be required to existing project management systems (issue trackers, etc.), owners/managers of projects may participate as much or as little as desired.
+* Pseudononymous - we are after intelligence, and obtaining that info often requires a degree of respect for privacy.
 
 Forward looking features we will prepare for in later iterations:
 
 * Example trading bots with Clear APIs
 * Tokenized, tradable contracts for each market agreement.
+* A DSL for researchers in which to write simple payout and scoring algos.
+
+## Code and Documentation Repositories
+
+We have three repos at the moment:
+
+* End-User documentation: [docs][docs]
+* Oracles and Web2 Management app: [web2][web2]
+* Solidity contracts and Dapp(s): [web3][web3]
+
+## Status of the project and these docs
+
+These docs reflect the pre-implementation V0 version of the project.  Rest assured we will return to these to refresh them once we reach our next milestone.
+
+## Slide decks, presentations, demos, etc.
 
 We have a slide deck that provides a slightly longer intro: [Issue Market Intro Slides][deck] 
+
+## Inspiration
+
+Don Marti wrote a pretty [good summary][don] of some of the ideas we are looking to explore, here.
 
 ## About this Documentation
 
@@ -37,3 +58,4 @@ View the generated documentation via [HTTP][http] or [IPFS](meta/ipfs).
 [md]:   http://daringfireball.net/projects/markdown/syntax
 [bal]:  https://balsamiq.com/
 [mkd]:  http://www.mkdocs.org/
+[don]:  https://blog.zgp.org/transactions-from-a-future-software-market/

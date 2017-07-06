@@ -19,6 +19,7 @@ markdown_extensions:
 pages:
   - Introduction: index.md
   - Overview:
+    - Design:           home/highlevel.md
     - Elements:         home/elements.md
     - Actors:           home/actors.md
   - Use Cases:   
@@ -35,7 +36,5 @@ pages:
     - Collaboration:    meta/collaboration.md
     - IPFS:             meta/ipfs.md
   - Under Construction:
-    - Software Objects:    tbd/objects.md
-    - Process Interaction: tbd/process.md
     - Incentives DSL:      tbd/incentive.md
     - Implementation:      tbd/implementation.md
