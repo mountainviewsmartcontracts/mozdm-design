@@ -31,7 +31,7 @@ pages:
     - Counterparty:        cases/counterparty.md
   - Reference:
     - CVE Attributes: ref/cve_attributes.md
-    - GitHub API:     ref/github_api.md
+    # - GitHub API:     ref/github_api.md
   - Meta:
     - Collaboration:    meta/collaboration.md
     - IPFS:             meta/ipfs.md
