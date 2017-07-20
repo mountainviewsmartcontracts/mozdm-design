@@ -1,14 +1,8 @@
 # Actors
 
-## Contract Participants
-
-![Groups](/img/__ActorContracts.png)
-
-## Actors
-
 | Actor                 | Org     | Overview                            |
 |-----------------------|---------|-------------------------------------|
-| [Product Owner][po]   | Mozilla | Assembles and Watches Metrics       |
+| [Product Owner][po]   | Owner   | Assembles and Watches Metrics       |
 | [Product Manager][pm] | Any     | Manages Payout Algorithms           |
 | [Developer][de]       | Any     | Watches Market, Fixes Bugs          |
 | [Publisher][pu]       | Any     | Configures/Publishes a new contract |
@@ -20,7 +14,11 @@
 [pu]: /cases/publisher
 [co]: /cases/counterparty
 
-## Organizations
+## Contract Participants
 
-![Groups](/img/__ActorOrgs.png)
+![Groups](/img/__ActorContracts.png)
+
+## Market Participants
+
+![Groups](/img/__MarketParticipants.png)
 

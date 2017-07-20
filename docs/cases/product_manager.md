@@ -1,18 +1,27 @@
 # Product Manager
 
-## Publishing Payout Terms
+The product manager in this system is the hands-on manager of the software product - they configure or otherwise control the issue tracker, and other software management systems.
 
-The Payout DSL is defined [here](/incentive).
+## Adjusting the Reward Algorithm (we've also been calling this a Payout Algorithm)
 
-Use Cases include:
+A reward algorithm kicks in when an market contract has been resolved.
+
+Typically, contract resolution results in some payment being made. That payment could be made immediately, or in installments, or based on other conditions being met, such as code quality being verified, or other metrics.  
+
+One way we could make it easy to adjust the Reward Algorithm is to create a domain specific language (DSL) for defining the algorithm.
+
+We've been calling this potential DSL, used to define the Reward/Payout algorithm a "Payout DSL"
+
+The Payout DSL is TBD.
+
+Use Cases for the Product Manager:
 
 - Create Payout Algorithm
 - Backtest Payout
 - Publish Payout
 - Retire Payout
 
-Publishing payment terms might be restricted - Mozilla or a Mozilla Industry
-Partner.
+Publishing payment terms might be restricted - Product owner or Industry Partner.
 
 ## Repo Management
 

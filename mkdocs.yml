@@ -1,4 +1,4 @@
-site_name:        'Isssue Market'
+site_name:        'Issue Market'
 site_author:      'MVSC'
 site_description: 'Issue Market Project Documentation'
 site_url:         'https://mvscorg.github.io/mozdm-design'
@@ -19,26 +19,22 @@ markdown_extensions:
 pages:
   - Introduction: index.md
   - Overview:
+    - Design:           home/highlevel.md
     - Elements:         home/elements.md
     - Actors:           home/actors.md
   - Use Cases:   
-    - All Roles:        cases/all_roles.md
-    - Product Owner:    cases/product_owner.md
-    - Product Manager:  cases/product_manager.md
-    - Developer:        cases/developer.md
-    - Publisher:        cases/publisher.md
-    - Counterparty:     cases/counterparty.md
+    - All Roles:           cases/all_roles.md
+    - Product Owner:       cases/product_owner.md
+    - Product Manager:     cases/product_manager.md
+    - Developer:           cases/developer.md
+    - Publisher:           cases/publisher.md
+    - Counterparty:        cases/counterparty.md
   - Reference:
-    - Links:            ref/links.md
-    - Tutorial:         ref/tutorial.md
-    - CVE Attributes:   ref/cve_attributes.md
+    - CVE Attributes: ref/cve_attributes.md
+    - GitHub API:     ref/github_api.md
   - Meta:
     - Collaboration:    meta/collaboration.md
     - IPFS:             meta/ipfs.md
   - Under Construction:
-    - Questions:           tbd/questions.md
-    - Metrics:             tbd/metrics.md
-    - Software Objects:    tbd/objects.md
-    - Process Interaction: tbd/process.md
     - Incentives DSL:      tbd/incentive.md
     - Implementation:      tbd/implementation.md
