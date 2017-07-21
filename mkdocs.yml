@@ -1,6 +1,6 @@
-site_name:        'Issue Market'
+site_name:        'BugMark'
 site_author:      'MVSC'
-site_description: 'Issue Market Project Documentation'
+site_description: 'BugMark Project Documentation'
 site_url:         'https://mvscorg.github.io/mozdm-design'
 site_favicon:     'img/favicon.gif'
 theme_dir:        '_theme/material'

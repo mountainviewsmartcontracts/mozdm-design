@@ -2,7 +2,7 @@
 
 ## Contracts
 
-Issue Market trades **Reward Contacts** and a **Forecast Contracts**.
+BugMark trades **Reward Contacts** and a **Forecast Contracts**.
 
 ### Forecast Contract
 
