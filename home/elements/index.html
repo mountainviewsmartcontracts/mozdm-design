@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Issue Market Project Documentation">
+        <meta name="description" content="BugMark Project Documentation">
       
       
         <link rel="canonical" href="https://mvscorg.github.io/mozdm-design/home/elements/">
@@ -21,7 +21,7 @@
     
     
       
-        <title>Elements - Issue Market</title>
+        <title>Elements - BugMark</title>
       
     
     
@@ -67,7 +67,7 @@
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <a href="https://mvscorg.github.io/mozdm-design" title="Issue Market" class="md-icon md-icon--home md-header-nav__button">
+          <a href="https://mvscorg.github.io/mozdm-design" title="BugMark" class="md-icon md-icon--home md-header-nav__button">
           </a>
         
       </div>
@@ -138,7 +138,7 @@
     
       <i class="md-icon md-icon--home md-nav__button"></i>
     
-    Issue Market
+    BugMark
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -229,15 +229,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#types" title="Types" class="md-nav__link">
-    Types
+  <a href="#forecast-contract" title="Forecast Contract" class="md-nav__link">
+    Forecast Contract
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#payout-algorithm" title="Payout Algorithm" class="md-nav__link">
-    Payout Algorithm
+  <a href="#reward-contact" title="Reward Contact" class="md-nav__link">
+    Reward Contact
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contract-attributes" title="Contract Attributes" class="md-nav__link">
+    Contract Attributes
   </a>
   
 </li>
@@ -256,7 +263,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#types_1" title="Types" class="md-nav__link">
+  <a href="#types" title="Types" class="md-nav__link">
     Types
   </a>
   
@@ -283,8 +290,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#attributes" title="Attributes" class="md-nav__link">
-    Attributes
+  <a href="#issue-metadata" title="Issue Metadata" class="md-nav__link">
+    Issue Metadata
   </a>
   
 </li>
@@ -467,18 +474,6 @@
   </li>
 
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../ref/github_api/" title="GitHub API" class="md-nav__link">
-      GitHub API
-    </a>
-  </li>
-
-        
       </ul>
     </nav>
   </li>
@@ -609,15 +604,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#types" title="Types" class="md-nav__link">
-    Types
+  <a href="#forecast-contract" title="Forecast Contract" class="md-nav__link">
+    Forecast Contract
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#payout-algorithm" title="Payout Algorithm" class="md-nav__link">
-    Payout Algorithm
+  <a href="#reward-contact" title="Reward Contact" class="md-nav__link">
+    Reward Contact
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contract-attributes" title="Contract Attributes" class="md-nav__link">
+    Contract Attributes
   </a>
   
 </li>
@@ -636,7 +638,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#types_1" title="Types" class="md-nav__link">
+  <a href="#types" title="Types" class="md-nav__link">
     Types
   </a>
   
@@ -663,8 +665,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#attributes" title="Attributes" class="md-nav__link">
-    Attributes
+  <a href="#issue-metadata" title="Issue Metadata" class="md-nav__link">
+    Issue Metadata
   </a>
   
 </li>
@@ -710,27 +712,39 @@
                 
                 
                 <h1 id="elements">Elements<a class="headerlink" href="#elements" title="Permanent link">&para;</a></h1>
-<p><img alt="Entities" src="../../img/__Overview.png" /></p>
 <h2 id="contracts">Contracts<a class="headerlink" href="#contracts" title="Permanent link">&para;</a></h2>
-<h3 id="types">Types<a class="headerlink" href="#types" title="Permanent link">&para;</a></h3>
-<p>Issue Market trades two types of contracts:</p>
-<ul>
-<li>
-<p>a <strong>Reward</strong> <br/>
-  eg <code>I will pay $X if Issue $Y is resolved before $Date</code></p>
-</li>
-<li>
-<p>a <strong>Forecast</strong> <br/>
-  eg <code>I will pay $X if an Issue with ${MATCH PARAMS} is opened before $DATE</code></p>
-</li>
-</ul>
-<h3 id="payout-algorithm">Payout Algorithm<a class="headerlink" href="#payout-algorithm" title="Permanent link">&para;</a></h3>
-<ul>
-<li>We will create a DSL for pluggable payout algorithms</li>
-<li>Each contract is associated with one (and only one) payout algorithm</li>
-</ul>
+<p>BugMark trades <strong>Reward Contacts</strong> and a <strong>Forecast Contracts</strong>.</p>
+<h3 id="forecast-contract">Forecast Contract<a class="headerlink" href="#forecast-contract" title="Permanent link">&para;</a></h3>
+<p><code>"I will pay $X if an Issue matching ${METADATA} exists before $DATE"</code></p>
+<p><img alt="Entities" src="../../img/__OverviewForecast.png" /></p>
+<h3 id="reward-contact">Reward Contact<a class="headerlink" href="#reward-contact" title="Permanent link">&para;</a></h3>
+<p><code>"I will pay $X if Issue $Y is resolved before $Date"</code></p>
+<p><img alt="Entities" src="../../img/__OverviewReward.png" /></p>
+<h3 id="contract-attributes">Contract Attributes<a class="headerlink" href="#contract-attributes" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>ATTRIBUTE</th>
+<th>DESCRIPTION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Premium</td>
+<td>Adjustable risk premium</td>
+</tr>
+<tr>
+<td>Metadata</td>
+<td>Labels and Fields used for issue matching</td>
+</tr>
+<tr>
+<td>Payout Algorithm</td>
+<td>DSL for pluggable payout algorithm</td>
+</tr>
+</tbody>
+</table>
 <h2 id="repos">Repos<a class="headerlink" href="#repos" title="Permanent link">&para;</a></h2>
-<h3 id="types_1">Types<a class="headerlink" href="#types_1" title="Permanent link">&para;</a></h3>
+<h3 id="types">Types<a class="headerlink" href="#types" title="Permanent link">&para;</a></h3>
 <p><em>Repo Types</em> are hard coded into the system.</p>
 <table>
 <thead>
@@ -756,12 +770,12 @@
 </table>
 <h3 id="characteristics">Characteristics<a class="headerlink" href="#characteristics" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Some repos are hard-coded in the system (BugZilla/Firefox,
+<li>Some repos are hard-coded in the system (eg BugZilla/Firefox,
   BugZilla/Thunderbird, CVE)</li>
-<li>Some repos are added dynamically by users (GitHub/Repo1, GitHub/Repo2, ...)</li>
+<li>Some repos are added dynamically by users (eg GitHub/Repo1, GitHub/Repo2, ...)</li>
 </ul>
 <h2 id="issues">Issues<a class="headerlink" href="#issues" title="Permanent link">&para;</a></h2>
-<h3 id="attributes">Attributes<a class="headerlink" href="#attributes" title="Permanent link">&para;</a></h3>
+<h3 id="issue-metadata">Issue Metadata<a class="headerlink" href="#issue-metadata" title="Permanent link">&para;</a></h3>
 <p>Note: For each issue we can programatically extract:</p>
 <ul>
 <li>the issue status (Open, Closed)</li>
@@ -794,9 +808,9 @@
 oracle.</p>
 <h3 id="match-params">Match Params<a class="headerlink" href="#match-params" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>CVE</strong> - match against issue metadata</li>
-<li><strong>BUGZILLA</strong> - match against issue metadata</li>
-<li><strong>GitHub</strong> - match against issue labels</li>
+<li><strong>CVE</strong> - match against hardcoded metadata fields</li>
+<li><strong>BUGZILLA</strong> - match against hardcoded metadata fields</li>
+<li><strong>GitHub</strong> - match against dynamic labels</li>
 </ul>
                 
                   
