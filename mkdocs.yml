@@ -17,12 +17,12 @@ markdown_extensions:
   - footnotes
   - toc(permalink=true)
 pages:
-  - Blockchain Research: research.md
-  - BugMark Intro:       index.md
-  - Overview:
-    - Design:           home/highlevel.md
-    - Elements:         home/elements.md
-    - Actors:           home/actors.md
+  - Blockchain Research: index.md
+  - BugMark Intro:       intro.md
+  - Design:
+    - Overview:         design/overview.md
+    - Elements:         design/elements.md
+    - Actors:           design/actors.md
   - Use Cases:   
     - All Roles:           cases/all_roles.md
     - Product Owner:       cases/product_owner.md
