@@ -1,7 +1,7 @@
 site_name:        'BugMark'
 site_author:      'MVSC'
 site_description: 'BugMark Project Documentation'
-site_url:         'https://mvscorg.github.io/mozdm-design'
+site_url:         'https://mvscorg.github.io/bugmark-design'
 site_favicon:     'img/favicon.gif'
 theme_dir:        '_theme/material'
 copyright:        'Copyright &copy; 2017 Mountain View Smart Contracts'
@@ -11,14 +11,14 @@ extra:
     primary: 'green'
   social:
     - type: 'github'
-      link: 'https://github.com/mvscorg/mozdm-design'
+      link: 'https://github.com/mvscorg/bugmark-design'
 markdown_extensions:
   - admonition
   - footnotes
   - toc(permalink=true)
 pages:
   - Blockchain Research: index.md
-  - BugMark Intro:       intro.md
+  - About Bugmark:       about.md
   - Design:
     - Overview:         design/overview.md
     - Elements:         design/elements.md
@@ -32,7 +32,6 @@ pages:
     - Counterparty:        cases/counterparty.md
   - Reference:
     - CVE Attributes: ref/cve_attributes.md
-    # - GitHub API:     ref/github_api.md
   - Meta:
     - Collaboration:    meta/collaboration.md
     - IPFS:             meta/ipfs.md
