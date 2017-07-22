@@ -17,7 +17,8 @@ markdown_extensions:
   - footnotes
   - toc(permalink=true)
 pages:
-  - Introduction: index.md
+  - Blockchain Research: research.md
+  - BugMark Intro:       index.md
   - Overview:
     - Design:           home/highlevel.md
     - Elements:         home/elements.md
